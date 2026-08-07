@@ -1,32 +1,15 @@
-// Protection légère uniquement : ce mécanisme n'est PAS une authentification sécurisée.
-// Le code temporaire actuel est "Madajoel". Remplacer ACCESS_HASH pour changer le code.
-const ACCESS_HASH = "91152282e1a3e936c614bcf9a353598445376c0cb64ee181618d986d49af3631";
 
-async function sha256(value) {
-  const data = new TextEncoder().encode(value);
-  const digest = await crypto.subtle.digest("SHA-256", data);
-  return Array.from(new Uint8Array(digest)).map(b => b.toString(16).padStart(2,"0")).join("");
+const ACCESS_HASH="9afaf34e";
+function fnv1a(v){
+ let h=0x811c9dc5;
+ const bytes=new TextEncoder().encode(v);
+ for(const b of bytes){h^=b;h=Math.imul(h,0x01000193)>>>0;}
+ return h.toString(16).padStart(8,"0");
 }
-
-function unlock() {
-  sessionStorage.setItem("madaNotesAccess", "1");
-  document.getElementById("access-gate").hidden = true;
-  document.getElementById("site-content").hidden = false;
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  if (sessionStorage.getItem("madaNotesAccess") === "1") {
-    unlock();
-    return;
-  }
-  const form = document.getElementById("access-form");
-  form.addEventListener("submit", async (event) => {
-    event.preventDefault();
-    const code = document.getElementById("access-code").value;
-    if (await sha256(code) === ACCESS_HASH) {
-      unlock();
-    } else {
-      document.getElementById("access-error").textContent = "Code incorrect.";
-    }
-  });
+function unlock(){document.getElementById("gate").classList.add("hidden");sessionStorage.setItem("mada-access","1");}
+window.addEventListener("DOMContentLoaded",()=>{
+ if(sessionStorage.getItem("mada-access")==="1") unlock();
+ const f=document.getElementById("access-form"); if(!f)return;
+ f.addEventListener("submit",e=>{e.preventDefault();const v=document.getElementById("access-code").value;
+ if(fnv1a(v)===ACCESS_HASH) unlock(); else document.getElementById("access-error").textContent="Code incorrect."; });
 });

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "document-exemple.docx",
+    "size": 36859,
+    "download_url": "files/document-exemple.docx"
+  },
+  {
+    "name": "donnees-exemple.xlsx",
+    "size": 3764,
+    "download_url": "files/donnees-exemple.xlsx"
+  },
+  {
+    "name": "fiche-korman-3500w.pdf",
+    "size": 3338,
+    "download_url": "files/fiche-korman-3500w.pdf"
+  },
+  {
+    "name": "hello-world.bat",
+    "size": 36,
+    "download_url": "files/hello-world.bat"
+  },
+  {
+    "name": "hello-world.exe",
+    "size": 1536,
+    "download_url": "files/hello-world.exe"
+  },
+  {
+    "name": "lorem-ipsum.csv",
+    "size": 131,
+    "download_url": "files/lorem-ipsum.csv"
+  },
+  {
+    "name": "lorem-ipsum.txt",
+    "size": 124,
+    "download_url": "files/lorem-ipsum.txt"
+  },
+  {
+    "name": "lot-exemple.zip",
+    "size": 3694,
+    "download_url": "files/lot-exemple.zip"
+  },
+  {
+    "name": "mada-notes-logo.svg",
+    "size": 452,
+    "download_url": "files/mada-notes-logo.svg"
+  },
+  {
+    "name": "rapport-solaire-complet.html",
+    "size": 2581,
+    "download_url": "files/rapport-solaire-complet.html"
+  }
+]

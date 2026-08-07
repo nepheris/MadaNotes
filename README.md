@@ -1,45 +1,42 @@
 # Mada Notes
 
-Mini-site statique et mobile-first pour centraliser la documentation pratique de Sainte-Marie (Madagascar).
+Mini-site documentaire statique, mobile-first, destiné à centraliser des informations pratiques, manuels et fichiers de dépannage.
 
-## V0.3
+## V0.2 - structure
 
-### Accueil général
-- verrouillage client léger ;
-- mot de passe temporaire : `Madajoel` ;
-- accès aux sections Solaire et Quad.
+- `index.html` : accueil avec verrouillage léger côté navigateur.
+- `solaire/` : installation, matériel, monitoring et analyse.
+- `quad/` : placeholder en construction.
+- `sos/` : liste automatique des fichiers déposés dans `sos/files/`.
+- `assets/` : CSS/JS/images communs.
+- `archives/` : rapport solaire historique/reconstitué.
 
-### Solaire
-Trois rubriques principales :
-1. Installation & données théoriques
-2. Matériel
-3. Analyse des performances
+## Code d'accès de démonstration
 
-Deux rubriques complémentaires :
-4. Réception & contrôle
-5. Documents
+Code initial : `Mada2026`
 
-### Matériel
-Tous les équipements et outils associés sont regroupés sous `solaire/materiel/` :
-- panneaux photovoltaïques ;
-- onduleur Growatt ;
-- batterie Greenline ;
-- groupe électrogène Korman ;
-- monitoring et outils Growatt (ShinePhone, ShineServer, datalogger/Wi‑Fi).
+Le code n'est **pas une sécurité réelle** : GitHub Pages et le dépôt sont publics. Le mot de passe sert uniquement de barrière visuelle sur l'accueil. Le code est comparé côté navigateur à une empreinte légère dans `assets/js/access.js`.
 
-### Réception
-Page temporaire dédiée au pointage du matériel, du devis, des références et de la mise en service.
-Elle pourra être masquée ou supprimée après validation complète de l'installation.
+## SOS automatique
 
-### Documents
-Page centrale listant tous les documents disponibles, avec filtres par type/matériel.
-Les manuels restent également accessibles depuis chaque fiche matériel.
+Après publication sur GitHub Pages, `sos/index.html` interroge l'API publique GitHub :
 
-## Important — accès
+`nepheris/MadaNotes/sos/files`
 
-Le verrouillage de `index.html` est seulement dissuasif. GitHub Pages est un hébergement statique :
-les URLs directes des pages et documents restent techniquement publiques.
+Tout fichier ajouté dans ce dossier apparaît donc automatiquement après le push, sans modifier la page HTML.
 
-## Publication
+Les boutons :
+- **Ouvrir** : ouvre le fichier dans un nouvel onglet lorsque le navigateur sait l'afficher ;
+- **Télécharger** : demande le téléchargement du fichier.
 
-GitHub Pages : branche `main`, dossier racine `/`.
+Pour les formats `.exe`, `.bat`, `.xlsx`, `.docx`, `.zip`, le comportement exact dépend du navigateur et du système ; ils seront généralement téléchargés.
+
+## GitHub Pages
+
+Publier depuis la branche `main`, dossier `/ (root)`.
+
+URL attendue : `https://nepheris.github.io/MadaNotes/`
+
+## Documents sources à conserver
+
+La V0.2 reprend les données du devis Greenline PF5438 et les caractéristiques Korman connues. Les originaux privés retrouvés dans la bibliothèque ChatGPT ne peuvent pas être exportés directement par le connecteur de fichiers ; des versions de travail/reconstituées sont donc incluses dans ce package.
