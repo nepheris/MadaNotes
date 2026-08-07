@@ -1,0 +1,11 @@
+{
+  "package": "MadaNotes_CUMULATIF_V0.3",
+  "type": "snapshot cumulatif",
+  "password_current": "MadaJoel",
+  "includes": [
+    "initialisation README",
+    "structure V0.2 complète",
+    "modifications V0.3"
+  ],
+  "file_count": 34
+}

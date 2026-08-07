@@ -1,42 +1,52 @@
 # Mada Notes
 
-Mini-site documentaire statique, mobile-first, destiné à centraliser des informations pratiques, manuels et fichiers de dépannage.
+Mini-site documentaire statique, mobile-first, destiné à centraliser des informations pratiques,
+des manuels et des fichiers de dépannage.
 
-## V0.2 - structure
+## État cumulatif V0.3
 
-- `index.html` : accueil avec verrouillage léger côté navigateur.
+Cette archive reprend l'ensemble des modifications des trois étapes successives :
+
+1. initialisation du dépôt avec le `README.md` ;
+2. création de la structure complète Mada Notes (Solaire, Quad, SOS, assets et documents) ;
+3. mise à jour de l'accès et enrichissement des fiches matériel, notamment le groupe Korman.
+
+## Accès
+
+Code actuel : `MadaJoel`
+
+La page d'accueil propose un bouton permettant d'afficher ou de masquer le code pendant la saisie.
+
+## Structure
+
+- `index.html` : accueil Mada Notes.
 - `solaire/` : installation, matériel, monitoring et analyse.
-- `quad/` : placeholder en construction.
-- `sos/` : liste automatique des fichiers déposés dans `sos/files/`.
-- `assets/` : CSS/JS/images communs.
-- `archives/` : rapport solaire historique/reconstitué.
-
-## Code d'accès de démonstration
-
-Code initial : `Mada2026`
-
-Le code n'est **pas une sécurité réelle** : GitHub Pages et le dépôt sont publics. Le mot de passe sert uniquement de barrière visuelle sur l'accueil. Le code est comparé côté navigateur à une empreinte légère dans `assets/js/access.js`.
+- `quad/` : page placeholder « En construction ».
+- `sos/` : fichiers rapides à visualiser ou télécharger.
+- `assets/` : CSS et JavaScript communs.
+- `archives/` : documents de référence historiques/reconstitués.
 
 ## SOS automatique
 
-Après publication sur GitHub Pages, `sos/index.html` interroge l'API publique GitHub :
+Après publication sur GitHub Pages, `sos/index.html` interroge le contenu public du dossier :
 
 `nepheris/MadaNotes/sos/files`
 
-Tout fichier ajouté dans ce dossier apparaît donc automatiquement après le push, sans modifier la page HTML.
-
-Les boutons :
-- **Ouvrir** : ouvre le fichier dans un nouvel onglet lorsque le navigateur sait l'afficher ;
-- **Télécharger** : demande le téléchargement du fichier.
-
-Pour les formats `.exe`, `.bat`, `.xlsx`, `.docx`, `.zip`, le comportement exact dépend du navigateur et du système ; ils seront généralement téléchargés.
+Les fichiers ajoutés dans ce dossier peuvent ainsi apparaître automatiquement après le push.
 
 ## GitHub Pages
 
-Publier depuis la branche `main`, dossier `/ (root)`.
+Publication prévue depuis la branche `main`, dossier `/ (root)`.
 
-URL attendue : `https://nepheris.github.io/MadaNotes/`
+URL attendue :
 
-## Documents sources à conserver
+`https://nepheris.github.io/MadaNotes/`
 
-La V0.2 reprend les données du devis Greenline PF5438 et les caractéristiques Korman connues. Les originaux privés retrouvés dans la bibliothèque ChatGPT ne peuvent pas être exportés directement par le connecteur de fichiers ; des versions de travail/reconstituées sont donc incluses dans ce package.
+## Mise à jour V0.3
+
+- Code d'accès remplacé par `MadaJoel`.
+- Bouton « Afficher le mot de passe » / « Masquer le mot de passe ».
+- Ancien texte d'avertissement retiré de la page d'accueil.
+- Fiche Korman 3500 W enrichie.
+- Ressources Sanifer et recherches documentaires ajoutées.
+- Liens Google IA ajoutés aux fiches matériel.
