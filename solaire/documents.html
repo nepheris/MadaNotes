@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Documents solaires — Mada Notes</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header class="topbar"><div class="shell"><a class="brand" href="../index.html">Mada Notes</a>
+<nav class="nav"><a href="index.html">☀️ Solaire</a><a href="materiel/index.html">Matériel</a></nav></div></header>
+<main class="shell">
+<h1>📚 Documents</h1>
+<p>Tous les documents du projet solaire sont regroupés ici. Les manuels restent également accessibles depuis les fiches matériel.</p>
+
+<div class="card">
+<label for="doc-filter"><strong>Filtrer les documents</strong></label>
+<select id="doc-filter" style="width:100%;margin-top:8px;padding:11px;border:1px solid var(--line);border-radius:12px;background:#fff">
+<option value="all">Tous</option>
+<option value="projet">Projet / devis</option>
+<option value="panneaux">Panneaux PV</option>
+<option value="onduleur">Onduleur Growatt</option>
+<option value="batterie">Batterie</option>
+<option value="groupe">Groupe Korman</option>
+<option value="monitoring">Monitoring Growatt</option>
+<option value="schema">Schémas</option>
+</select>
+</div>
+
+<ul class="doc-list" id="document-list" style="margin-top:14px">
+<li data-cat="projet"><a href="../assets/documents/solaire/" target="_blank"><span>📄 Dossier projet / devis</span><strong>↗</strong></a></li>
+<li data-cat="panneaux"><a href="../assets/documents/solaire/panneaux/" target="_blank"><span>☀️ Panneaux photovoltaïques</span><strong>↗</strong></a></li>
+<li data-cat="onduleur"><a href="../assets/documents/solaire/onduleur/" target="_blank"><span>⚡ Onduleur Growatt</span><strong>↗</strong></a></li>
+<li data-cat="batterie"><a href="../assets/documents/solaire/batterie/" target="_blank"><span>🔋 Batterie Greenline</span><strong>↗</strong></a></li>
+<li data-cat="groupe"><a href="../assets/documents/solaire/groupe/" target="_blank"><span>⛽ Groupe Korman</span><strong>↗</strong></a></li>
+<li data-cat="monitoring"><a href="../assets/documents/solaire/monitoring/" target="_blank"><span>📱 Monitoring Growatt</span><strong>↗</strong></a></li>
+<li data-cat="schema"><a href="../assets/documents/solaire/" target="_blank"><span>📐 Schémas & implantation</span><strong>↗</strong></a></li>
+</ul>
+
+<p class="muted"><small>Les liens vers les dossiers servent de structure de travail. À mesure que les PDF seront intégrés, cette page pointera directement vers chaque document.</small></p>
+
+<footer class="footer"><a href="index.html">← Retour au solaire</a></footer>
+</main>
+<script>
+document.getElementById('doc-filter').addEventListener('change', function(){
+  const value=this.value;
+  document.querySelectorAll('#document-list li').forEach(li=>{
+    li.hidden = value !== 'all' && li.dataset.cat !== value;
+  });
+});
+</script>
+</body></html>
