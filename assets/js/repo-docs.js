@@ -1,3 +1,4 @@
+(()=>{if(!document.querySelector('link[href*="ui-v2.css?v=2.0.5"]')){const l=document.createElement('link');l.rel='stylesheet';l.href='/MadaNotes/assets/css/ui-v2.css?v=2.0.5';document.head.appendChild(l)}})();
 const REPO_OWNER="nepheris",REPO_NAME="MadaNotes",REPO_BRANCH="main";
 const REPO_API=`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}`;
 const PAGES_ROOT=`https://${REPO_OWNER}.github.io/${REPO_NAME}/`;
