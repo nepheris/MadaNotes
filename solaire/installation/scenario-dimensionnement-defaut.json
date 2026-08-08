@@ -1,0 +1,24 @@
+{
+  "format": "MadaNotes-solar-sizing",
+  "version": "1.3",
+  "name": "Scénario de référence MadaNotes",
+  "source": "Rapport comparatif solaire Madagascar",
+  "system": {
+    "panel_count": 8,
+    "panel_watt": 635,
+    "psh": 5,
+    "performance": 0.8,
+    "battery_nominal_kwh": 10.24,
+    "dod_percent": 90
+  },
+  "loads": [
+    {"name":"Pompe","quantity":1,"power_w":750,"hours_per_day":5,"coefficient":1.25,"period":"jour"},
+    {"name":"Frigo A+","quantity":1,"power_w":58.33,"hours_per_day":24,"coefficient":1,"period":"continu"},
+    {"name":"Congélateur ancien","quantity":1,"power_w":83.33,"hours_per_day":24,"coefficient":1,"period":"continu"},
+    {"name":"Éclairage LED","quantity":5,"power_w":10,"hours_per_day":5,"coefficient":1.25,"period":"nuit"},
+    {"name":"Ordinateur portable","quantity":1,"power_w":60,"hours_per_day":5,"coefficient":1.25,"period":"jour"},
+    {"name":"TV","quantity":1,"power_w":100,"hours_per_day":2,"coefficient":1.25,"period":"nuit"},
+    {"name":"Micro-ondes","quantity":1,"power_w":1000,"hours_per_day":0.1667,"coefficient":1.25,"period":"jour"},
+    {"name":"Smartphone","quantity":2,"power_w":10,"hours_per_day":3,"coefficient":1.25,"period":"nuit"}
+  ]
+}
