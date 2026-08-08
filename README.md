@@ -1,61 +1,57 @@
 # Mada Notes
 
-Mini-site documentaire statique, mobile-first, destiné à centraliser des informations pratiques,
-des manuels et des fichiers de dépannage.
+Mini-site documentaire statique, mobile-first, destiné à centraliser des informations pratiques, des manuels, des fiches matériel et des fichiers de dépannage.
 
-## État cumulatif V0.5
+## État cumulatif V0.6
 
-Le dépôt contient actuellement :
+Cette version ajoute :
 
-1. la structure complète Mada Notes (Solaire, Quad, SOS, assets et documents) ;
-2. les fiches matériel enrichies, notamment le groupe Korman ;
-3. les ressources documentaires locales et externes ;
-4. un accès public direct via GitHub Pages ;
-5. un QR code de partage depuis la page d'accueil ;
-6. une indexation automatique des documents du dépôt pour Quad, Korman et SOS.
+- navigation homogène avec accès 🏠 / ☀️ Solaire / 🛞 Quad / 🆘 SOS ;
+- fiches matériel structurées en sections repliables ;
+- documents détectés automatiquement depuis le dépôt ;
+- actions adaptées au format : **Ouvrir + Télécharger** pour les formats prévisualisables, **Télécharger** uniquement pour les autres ;
+- téléchargement local robuste via `fetch -> Blob` pour les fichiers du dépôt ;
+- assistance IA en deux volets sur les fiches matériel : identification et manuel/entretien ;
+- maintenance et stock utile enrichis sur le GOES Iron 450 ;
+- distinction stricte entre Korman `01066672 / 3500 W` et les documents du Korman `214125 / 3000 W` ;
+- fiche Compresseur Korman avec détection automatique des documents ;
+- interface d'upload préparée dans `admin/upload.html`, volontairement désactivée tant qu'un backend sécurisé n'est pas configuré ;
+- suppression du mot de passe en clair de `CUMULATIF.json`.
 
-## Accès
-
-Le site est actuellement accessible publiquement sans code d'accès.
-
-URL publique :
+## Accès public
 
 `https://nepheris.github.io/MadaNotes/`
-
-## Structure
-
-- `index.html` : accueil Mada Notes.
-- `solaire/` : installation, matériel, monitoring, documents et analyse.
-- `quad/` : documentation GOES Iron 450 et documents associés.
-- `sos/` : fichiers rapides à visualiser ou télécharger.
-- `assets/` : CSS, JavaScript et images communs.
-- `archives/` : documents de référence historiques/reconstitués.
 
 ## Documents automatiques
 
-Les pages Quad, Korman, Documents et SOS interrogent le dépôt public à chaque ouverture afin d'afficher les fichiers réellement présents.
+Le module commun `assets/js/repo-docs.js` interroge l'arbre public GitHub à chaque chargement. Il peut filtrer par dossier, extension et mots-clés.
 
-- `assets/js/repo-docs.js` : indexation générique des documents depuis l'arbre GitHub.
-- `assets/js/sos.js` : indexation récursive de `sos/files/`, y compris les sous-dossiers, avec boutons Ouvrir / Télécharger.
-- `quad/documents.html` : notices officielles GOES et fichiers locaux du quad détectés automatiquement.
-- `solaire/documents.html` : documents solaires, Korman et compresseur détectés automatiquement.
+Formats prévisualisables : PDF, HTML, TXT, CSV, images et vidéos web courantes.
 
-Après un push, un simple rechargement de la page suffit pour actualiser les listes.
+Formats non prévisualisables dans le navigateur : DOC/DOCX, XLS/XLSX, ZIP et autres binaires ; ces formats n'affichent que le bouton Télécharger.
+
+## Upload
+
+La page `admin/upload.html` est une interface cliente prête à être branchée. Elle n'embarque aucun secret. Le backend devra :
+
+- vérifier le mot de passe côté serveur ;
+- limiter à 10 Mio par fichier ;
+- limiter à 10 fichiers par utilisateur/session et par 24 h ;
+- contrôler extensions et destinations autorisées ;
+- conserver le token GitHub uniquement dans un secret serveur ;
+- créer le fichier dans le dépôt avec une permission `Contents: write` minimale.
+
+Voir `admin/SECURITE-UPLOAD.md`.
+
+## Structure principale
+
+- `index.html` : accueil.
+- `solaire/` : installation, matériel, documents et analyse.
+- `quad/` : GOES Iron 450 et documents associés.
+- `sos/` : documents/fichiers détectés automatiquement.
+- `admin/` : interface et documentation de l'upload sécurisé.
+- `assets/` : CSS, JavaScript et ressources communes.
 
 ## GitHub Pages
 
-Publication depuis la branche `main`, dossier `/ (root)`.
-
-URL :
-
-`https://nepheris.github.io/MadaNotes/`
-
-## Mise à jour V0.5
-
-- Documentation GOES Iron 450 enrichie avec accès direct au manuel français officiel.
-- Nouvelle page `quad/documents.html`.
-- Détection automatique des PDF Quad dans plusieurs dossiers du dépôt.
-- Liens Korman FP-214125 et N-214125 conservés avec distinction du modèle principal 01066672.
-- Détection automatique des documents Korman locaux.
-- Section dédiée aux documents compresseur, sans attribuer un manuel à un modèle tant que la référence réelle n'est pas confirmée.
-- SOS recherche désormais récursivement tous les fichiers de `sos/files/` à chaque chargement et propose une actualisation manuelle.
+Publication depuis `main`, dossier `/ (root)`.

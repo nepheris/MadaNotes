@@ -1,11 +1,17 @@
 {
-  "package": "MadaNotes_CUMULATIF_V0.3",
+  "package": "MadaNotes_CUMULATIF_V0.6",
   "type": "snapshot cumulatif",
-  "password_current": "MadaJoel",
+  "security": {
+    "public_site": true,
+    "client_side_password": false,
+    "upload_backend_required": true
+  },
   "includes": [
-    "initialisation README",
-    "structure V0.2 complète",
-    "modifications V0.3"
-  ],
-  "file_count": 34
+    "navigation homogène",
+    "documents automatiques",
+    "ouvrir/télécharger selon format",
+    "fiches matériel repliables",
+    "assistance IA matériel",
+    "interface upload préparée sans secret client"
+  ]
 }
