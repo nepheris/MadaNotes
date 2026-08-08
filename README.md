@@ -25,18 +25,14 @@ URL publique :
 
 - `index.html` : accueil Mada Notes.
 - `solaire/` : installation, matériel, monitoring et analyse.
-- `quad/` : documentation Quad en construction.
+- `quad/` : documentation GOES Iron 450 et documents associés.
 - `sos/` : fichiers rapides à visualiser ou télécharger.
 - `assets/` : CSS, JavaScript et images communs.
 - `archives/` : documents de référence historiques/reconstitués.
 
-## SOS automatique
+## Documents automatiques
 
-Après publication sur GitHub Pages, `sos/index.html` interroge le contenu public du dossier :
-
-`nepheris/MadaNotes/sos/files`
-
-Les fichiers ajoutés dans ce dossier peuvent ainsi apparaître automatiquement après le push.
+Les pages Quad, Korman, Documents et SOS interrogent le dépôt public à chaque ouverture afin d'afficher les fichiers réellement présents. Le module commun est `assets/js/repo-docs.js`. La page SOS utilise `assets/js/sos.js` et recherche récursivement tout le contenu de `sos/files/`, y compris les sous-dossiers.
 
 ## GitHub Pages
 
@@ -54,3 +50,4 @@ URL :
 - Factorisation des styles du bloc QR dans la feuille CSS commune.
 - Conservation de la navigation principale sur mobile avec défilement horizontal si nécessaire.
 - Documentation Korman enrichie avec distinction explicite des références 01066672 et 214125.
+- Détection automatique des documents Quad, Korman et SOS depuis le dépôt public.
