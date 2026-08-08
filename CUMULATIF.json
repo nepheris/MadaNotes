@@ -1,6 +1,7 @@
 {
-  "package": "MadaNotes_CUMULATIF_V1.0",
+  "package": "MadaNotes_CUMULATIF_V1.1",
   "type": "snapshot cumulatif",
+  "date_mise_a_jour": "2026-08-08",
   "security": {
     "public_site": true,
     "client_side_password": false,
@@ -8,24 +9,19 @@
     "upload_status": "beta_demo"
   },
   "includes": [
-    "template materiel commun applique a toutes les fiches",
-    "identification ouverte par defaut",
-    "notices et documents ouvertes par defaut",
-    "sources complementaires repliees par defaut",
-    "documents presents dans le depot repliees par defaut",
-    "entretien ouvert par defaut",
-    "stock utile references et sources ouvert par defaut",
-    "assistance IA repliee par defaut",
-    "liens fabricant site officiel centre documentation et distributeur sur les fiches materiel",
-    "Growatt lie au site officiel et centre de telechargement",
-    "panneaux et batterie conservent fabricant-distributeur a confirmer sans invention",
-    "acces rapides accueil-solaire-quad-sos",
-    "navigation hierarchique au survol et au clic",
-    "toolbar flottante verrouillable deplacable et compactable",
-    "cadenas monochrome rouge verrouille vert deverrouille",
-    "toggle compact trois etats defaut-tout deplier-tout replier",
-    "assistance IA multi-onglets Gemini-ChatGPT-DeepSeek-Qwen",
-    "documents ouvrir-telecharger selon format",
-    "interface upload beta sans secret client"
+    "footer commun avec version et date de mise a jour",
+    "page installation enrichie orientation et configuration PF5359",
+    "page dimensionnement solaire interactive et modifiable",
+    "scenario consommation de reference environ 9.32 kWh par jour",
+    "panneaux M635 635 W dimensions poids et donnees electriques",
+    "batterie Greenline LiFePO4 51.2 V 200 Ah environ 10 kWh",
+    "onduleur Growatt 6 kVA avec reference exacte a confirmer et candidats documentaires separes",
+    "monitoring Growatt ShinePhone ShineServer et famille ShineWiFi",
+    "orientation Sainte-Marie nord geographique inclinaison 15 a 20 degres",
+    "navigation Installation vers Dimensionnement",
+    "template materiel commun",
+    "toolbar flottante",
+    "assistance IA multi-onglets",
+    "documents ouvrir-telecharger selon format"
   ]
 }
