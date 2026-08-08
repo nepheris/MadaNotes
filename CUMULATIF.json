@@ -1,5 +1,5 @@
 {
-  "package": "MadaNotes_CUMULATIF_V1.4",
+  "package": "MadaNotes_CUMULATIF_V1.5",
   "type": "snapshot cumulatif",
   "date_mise_a_jour": "2026-08-08",
   "security": {
@@ -9,22 +9,19 @@
     "upload_status": "beta_demo"
   },
   "includes": [
+    "cadenas monochrome partage entre toolbar et aide contextuelle",
+    "ancre visuelle identique sur toolbar et aide contextuelle",
+    "toolbar toujours au premier plan et position par defaut bas droite",
+    "visualiseur PDF MadaNotes avec fallback vers document original",
+    "liens ouvrir PDF fixes et automatiques normalises vers le visualiseur",
+    "page installation en disposition un tiers orientation deux tiers scenario",
+    "libelles KPI du scenario reduits pour eviter les coupures",
     "recapitulatif KPI du scenario par defaut visible sur la page installation",
-    "scenario dimensionnement par defaut charge automatiquement depuis JSON versionne V1.4",
-    "parametres systeme replies par defaut dans le dimensionnement",
-    "periodes consommation avec soleil jaune et lune monochrome grise",
-    "aide contextuelle en sous-rubriques repliables et ancrees",
-    "panneau aide deplacable redimensionnable verrouillable fermable avec remise a zero",
-    "ancre visuelle pour deplacer le panneau aide",
+    "scenario dimensionnement par defaut charge automatiquement depuis JSON versionne",
+    "aide contextuelle deplacable redimensionnable verrouillable fermable avec remise a zero",
     "croix de fermeture rouges uniformisees",
-    "toolbar toujours au premier plan",
-    "toolbar position par defaut coin bas droit",
-    "toolbar nouvelle cle de position V1.4 pour repartir de la position par defaut",
-    "toolbar automatiquement replacee et deverrouillee si elle sort de la zone visible",
-    "icone retour en haut distincte de l etat de repli des sections",
-    "boutons et etats visuels harmonises",
+    "periodes consommation avec soleil jaune et lune monochrome grise",
     "sauvegarde et chargement de variantes JSON locales",
-    "KPI et formules documentes dans l aide",
-    "footer commun version V1.4 et date de mise a jour"
+    "footer commun version V1.5 et date de mise a jour"
   ]
 }
