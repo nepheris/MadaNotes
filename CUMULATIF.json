@@ -1,5 +1,5 @@
 {
-  "package": "MadaNotes_CUMULATIF_V1.7",
+  "package": "MadaNotes_CUMULATIF_V1.8",
   "type": "snapshot cumulatif",
   "date_mise_a_jour": "2026-08-08",
   "security": {
@@ -9,19 +9,20 @@
     "upload_status": "beta_demo"
   },
   "includes": [
-    "audit global des sections et sous-sections repliables",
-    "cartes de contenu avec titre h2 automatiquement converties en sections repliables",
-    "tableaux automatiquement convertis en sous-sections repliables",
-    "header sticky conserve sans trait de separation visible",
-    "aide contextuelle redimensionnable depuis les quatre bords et les quatre coins",
-    "poignee bas droite conservee comme repere visuel de redimensionnement",
-    "redimensionnement de l aide actif uniquement lorsque le panneau est deverrouille",
-    "position dimensions et verrouillage de l aide memorises localement",
-    "cache-busting du panneau d aide V1.7",
-    "guide PDF orientation Sainte-Marie identifie et emplacement depot reserve",
-    "page installation en disposition un tiers orientation deux tiers scenario",
-    "recapitulatif KPI du scenario par defaut visible sur la page installation",
-    "scenario dimensionnement par defaut charge automatiquement depuis JSON versionne",
-    "footer commun version V1.7 et date de mise a jour"
+    "controle global des sections en trois etats avec icones visuelles distinctes",
+    "icone fleche haut pour toutes les sections ouvertes",
+    "icone fleche bas pour toutes les sections repliees",
+    "icone diagonale bicolore pour l etat par defaut",
+    "controles globaux gris au repos et verts au survol hors cadenas d etat",
+    "ancre toolbar grise au repos et verte au survol",
+    "aide contextuelle automatiquement ajoutee a chaque section et sous-section repliable",
+    "aide specialisee utilisee lorsqu une rubrique existe et aide generique sinon",
+    "sections de contenu hors hero rendues repliables de maniere globale",
+    "cartes de contenu et tableaux convertis automatiquement en niveaux repliables",
+    "cartes purement navigantes preservees et leur section conteneur reste repliable",
+    "toolbar pilote toutes les sections generees et existantes",
+    "header sticky sans trait de separation visible",
+    "aide contextuelle deplacable redimensionnable verrouillable et memorisee",
+    "footer commun version V1.8 et date de mise a jour"
   ]
 }
