@@ -2,44 +2,68 @@
 
 Mini-site documentaire statique, mobile-first, destiné à centraliser des informations pratiques, des manuels, des fiches matériel et des fichiers de dépannage.
 
-## État cumulatif V0.6
+## État cumulatif V0.7
 
-Cette version ajoute :
+Cette version consolide :
 
-- navigation homogène avec accès 🏠 / ☀️ Solaire / 🛞 Quad / 🆘 SOS ;
-- fiches matériel structurées en sections repliables ;
-- documents détectés automatiquement depuis le dépôt ;
-- actions adaptées au format : **Ouvrir + Télécharger** pour les formats prévisualisables, **Télécharger** uniquement pour les autres ;
-- téléchargement local robuste via `fetch -> Blob` pour les fichiers du dépôt ;
-- assistance IA en deux volets sur les fiches matériel : identification et manuel/entretien ;
-- maintenance et stock utile enrichis sur le GOES Iron 450 ;
-- distinction stricte entre Korman `01066672 / 3500 W` et les documents du Korman `214125 / 3000 W` ;
-- fiche Compresseur Korman avec détection automatique des documents ;
-- interface d'upload préparée dans `admin/upload.html`, volontairement désactivée tant qu'un backend sécurisé n'est pas configuré ;
-- suppression du mot de passe en clair de `CUMULATIF.json`.
+- navigation hiérarchique commune avec menu vertical dépliable ;
+- arborescence Solaire → Installation / Matériel / Documents / Analyse ;
+- sous-menu Matériel → Panneaux / Onduleur / Batterie / Groupe Korman / Monitoring ;
+- suppression complète de la fiche Compresseur ;
+- fiches matériel homogènes : image, identification, documents, entretien, stock/références/sources, assistance IA ;
+- tableaux documentaires avec langue, type, origine officielle/alternative et priorité ;
+- références de pièces/consommables accompagnées d'une source cliquable lorsqu'elle existe ;
+- documents locaux détectés automatiquement avec Ouvrir/Télécharger selon le format ;
+- interface `admin/upload.html` clairement marquée **Bêta / Démonstration** ;
+- bouton Afficher/Masquer pour le champ mot de passe ;
+- architecture d'upload sans compte utilisateur décrite dans `admin/SECURITE-UPLOAD.md` ;
+- aucun secret GitHub ni mot de passe réel exposé dans le JavaScript public.
 
 ## Accès public
 
 `https://nepheris.github.io/MadaNotes/`
 
+## Navigation
+
+Le composant commun `assets/js/site-nav.js` construit le menu hiérarchique du mini-site. Le menu principal reste compact dans le header puis se déplie verticalement avec les sous-menus.
+
 ## Documents automatiques
 
-Le module commun `assets/js/repo-docs.js` interroge l'arbre public GitHub à chaque chargement. Il peut filtrer par dossier, extension et mots-clés.
+Le module `assets/js/repo-docs.js` interroge l'arbre public GitHub à chaque chargement et peut filtrer par dossier, extension et mots-clés.
 
-Formats prévisualisables : PDF, HTML, TXT, CSV, images et vidéos web courantes.
+- Formats prévisualisables : PDF, HTML, TXT, CSV, images et vidéos web courantes → **Ouvrir + Télécharger**.
+- Formats non prévisualisables : DOC/DOCX, XLS/XLSX, ZIP et autres binaires → **Télécharger** uniquement.
 
-Formats non prévisualisables dans le navigateur : DOC/DOCX, XLS/XLSX, ZIP et autres binaires ; ces formats n'affichent que le bouton Télécharger.
+## Fiches matériel
 
-## Upload
+Gabarit commun :
 
-La page `admin/upload.html` est une interface cliente prête à être branchée. Elle n'embarque aucun secret. Le backend devra :
+1. image / visuel ;
+2. identification détaillée ;
+3. notices et documents ;
+4. entretien / périodicités ;
+5. stock utile, références et sources ;
+6. assistance IA — identification ;
+7. assistance IA — manuel / entretien / dépannage.
 
-- vérifier le mot de passe côté serveur ;
-- limiter à 10 Mio par fichier ;
-- limiter à 10 fichiers par utilisateur/session et par 24 h ;
-- contrôler extensions et destinations autorisées ;
-- conserver le token GitHub uniquement dans un secret serveur ;
-- créer le fichier dans le dépôt avec une permission `Contents: write` minimale.
+Le GOES Iron 450 et le groupe électrogène Korman sont les fiches de référence pour ce gabarit.
+
+## Upload expérimental
+
+`admin/upload.html` reste volontairement non opérationnel tant que le backend n'est pas configuré.
+
+Architecture prévue sans compte utilisateur :
+
+- mot de passe partagé vérifié côté backend HTTPS ;
+- session temporaire signée après authentification ;
+- taille maximale 10 Mio ;
+- quota public cible : 10 fichiers / 24 h ;
+- dossiers et extensions sur liste blanche ;
+- secret GitHub stocké uniquement côté backend ;
+- permission GitHub limitée à `Contents: write` sur MadaNotes ;
+- préférence pour une branche/zone `uploads-pending` avant validation manuelle vers `main`.
+
+Les push GitHub effectués directement par le propriétaire ne passent pas par ce quota applicatif.
 
 Voir `admin/SECURITE-UPLOAD.md`.
 
@@ -49,7 +73,7 @@ Voir `admin/SECURITE-UPLOAD.md`.
 - `solaire/` : installation, matériel, documents et analyse.
 - `quad/` : GOES Iron 450 et documents associés.
 - `sos/` : documents/fichiers détectés automatiquement.
-- `admin/` : interface et documentation de l'upload sécurisé.
+- `admin/` : interface Bêta et architecture d'upload.
 - `assets/` : CSS, JavaScript et ressources communes.
 
 ## GitHub Pages
