@@ -1,15 +1,24 @@
 (()=>{
-  const B='/MadaNotes/', VERSION='V2.0.2', UPDATED='08/08/2026';
+  const B='/MadaNotes/', VERSION='V2.0.3', UPDATED='08/08/2026';
   const addCss=(href,key)=>{if(document.querySelector(`link[data-ui="${key}"]`))return;const l=document.createElement('link');l.rel='stylesheet';l.href=href;l.dataset.ui=key;document.head.appendChild(l)};
-  addCss(B+'assets/css/ui-v1.8.css?v=2.0.2','legacy-ui');
-  addCss(B+'assets/css/ui-v2.css?v=2.0.2','svg-ui');
+  const load=(src,key)=>{let s=document.querySelector(`script[data-loader="${key}"]`);if(s)return s;s=document.createElement('script');s.src=src;s.defer=true;s.dataset.loader=key;document.body.appendChild(s);return s};
+  addCss(B+'assets/css/ui-v1.8.css?v=2.0.3','legacy-ui');
+  addCss(B+'assets/css/ui-v2.css?v=2.0.3','svg-ui');
 
   const nav=document.querySelector('[data-site-nav]');
   const branch=(href,label,body)=>`<details class="nav-branch"><summary><a href="${href}">${label}</a><span aria-hidden="true">›</span></summary>${body}</details>`;
   if(nav){
     nav.innerHTML=`<div class="quick-nav" aria-label="Accès rapides"><a href="${B}">🏠 Accueil</a><a href="${B}solaire/">☀️ Solaire</a><a href="${B}quad/">🛞 Quad</a><a href="${B}sos/">🆘 SOS</a></div><button type="button" class="header-help-btn" data-global-help>❓ Aide</button><details class="site-menu"><summary>☰ Navigation</summary><div class="site-menu-panel"><a href="${B}">🏠 Accueil</a>${branch(B+'solaire/','☀️ Solaire',`<div class="menu-level"><a href="${B}solaire/">Vue d’ensemble</a>${branch(B+'solaire/installation/','📐 Installation',`<div class="menu-level"><a href="${B}solaire/installation/">Vue installation</a><a href="${B}solaire/installation/dimensionnement.html">🧮 Dimensionnement</a></div>`)}${branch(B+'solaire/materiel/','🔧 Matériel',`<div class="menu-level"><a href="${B}solaire/materiel/">Catalogue</a><a href="${B}solaire/materiel/panneaux.html">☀️ Panneaux</a><a href="${B}solaire/materiel/onduleur.html">⚡ Onduleur</a><a href="${B}solaire/materiel/batterie.html">🔋 Batterie</a><a href="${B}solaire/materiel/groupe-korman.html">⛽ Groupe Korman</a><a href="${B}solaire/materiel/growatt-monitoring.html">📱 Monitoring</a></div>`)}<a href="${B}solaire/documents.html">📚 Documents</a><a href="${B}solaire/analyse/">📊 Analyse <span class="badge warn">Bêta</span></a></div>`)}${branch(B+'quad/','🛞 Quad',`<div class="menu-level"><a href="${B}quad/">Fiche GOES Iron 450</a><a href="${B}quad/documents.html">📚 Documents</a></div>`)}<a href="${B}sos/">🆘 SOS</a><a href="${B}admin/upload.html">⬆️ Ajouter <span class="badge warn">Bêta</span></a><a href="${B}aide/" target="_blank" rel="noopener">❓ Aide complète ↗</a></div></details>`;
     const hoverable=matchMedia('(hover:hover) and (pointer:fine)').matches;
-    if(hoverable){nav.querySelectorAll('.site-menu,.nav-branch').forEach(d=>{d.addEventListener('mouseenter',()=>d.open=true);d.addEventListener('mouseleave',()=>d.open=false)})}
+    if(hoverable){
+      nav.querySelectorAll('.site-menu,.nav-branch').forEach(d=>{
+        let closeTimer=null;
+        d.addEventListener('mouseenter',()=>{clearTimeout(closeTimer);d.open=true});
+        d.addEventListener('mouseleave',()=>{closeTimer=setTimeout(()=>{d.open=false},120)});
+        const summary=d.querySelector(':scope>summary');
+        summary?.addEventListener('click',e=>{if(e.target.closest('a'))return;e.preventDefault();d.open=true});
+      });
+    }
     nav.querySelectorAll('.nav-branch>summary>a').forEach(a=>a.addEventListener('click',e=>e.stopPropagation()));
   }
 
@@ -37,8 +46,12 @@
   const toolbar=document.createElement('div');toolbar.className='floating-tools';toolbar.innerHTML=`<button type="button" class="tool-grip ui-icon-control" title="Déplacer la toolbar">⚓</button><button type="button" class="ui-icon-control" data-fold-state>${foldDefault}</button><button type="button" class="ui-icon-control" data-toolbar-help>❓</button><button type="button" class="ui-icon-control" data-top>↑</button><button type="button" data-lock class="tool-lock locked">${lockClosed}</button><button type="button" class="ui-icon-control" data-toolbar-collapse>⋯</button>`;document.body.appendChild(toolbar);
   let foldState=0;const foldBtn=toolbar.querySelector('[data-fold-state]');const applyFold=()=>{if(foldState===0){folds.forEach(f=>f.open=f.dataset.defaultOpen==='1');foldBtn.innerHTML=foldDefault;foldBtn.title='État par défaut'}else if(foldState===1){folds.forEach(f=>f.open=true);foldBtn.innerHTML=foldOpen;foldBtn.title='Tout ouvrir'}else{folds.forEach(f=>f.open=false);foldBtn.innerHTML=foldClosed;foldBtn.title='Tout replier'}};foldBtn.addEventListener('click',()=>{foldState=(foldState+1)%3;applyFold()});
   toolbar.querySelector('[data-top]').addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
-  const openHelp=()=>window.MadaNotesHelp?.toggle?.('navigation');toolbar.querySelector('[data-toolbar-help]').addEventListener('click',openHelp);nav?.querySelector('[data-global-help]')?.addEventListener('click',openHelp);
-  const key='madanotes-toolbar-v2.0.2';let state={locked:true,collapsed:false,left:null,top:null};try{state={...state,...JSON.parse(localStorage.getItem(key)||'{}')}}catch{}
+
+  const helpScript=load(B+'assets/js/help-panel.js?v=2.0.3','help-panel');
+  const openHelp=()=>{if(window.MadaNotesHelp?.toggle){window.MadaNotesHelp.toggle('navigation');return}let attempts=0;const retry=()=>{if(window.MadaNotesHelp?.toggle){window.MadaNotesHelp.toggle('navigation');return}if(++attempts<30)setTimeout(retry,50)};retry()};
+  toolbar.querySelector('[data-toolbar-help]').addEventListener('click',openHelp);nav?.querySelector('[data-global-help]')?.addEventListener('click',openHelp);
+
+  const key='madanotes-toolbar-v2.0.3';let state={locked:true,collapsed:false,left:null,top:null};try{state={...state,...JSON.parse(localStorage.getItem(key)||'{}')}}catch{}
   const lockBtn=toolbar.querySelector('[data-lock]'),collapseBtn=toolbar.querySelector('[data-toolbar-collapse]');const save=()=>localStorage.setItem(key,JSON.stringify(state));
   function defaultPos(){const r=toolbar.getBoundingClientRect();state.left=Math.max(8,innerWidth-r.width-14);state.top=Math.max(8,innerHeight-r.height-14)}
   function render(){toolbar.classList.toggle('unlocked',!state.locked);toolbar.classList.toggle('toolbar-collapsed',state.collapsed);lockBtn.classList.toggle('locked',state.locked);lockBtn.classList.toggle('unlocked-state',!state.locked);lockBtn.innerHTML=state.locked?lockClosed:lockOpen;if(state.left!=null){toolbar.style.left=state.left+'px';toolbar.style.top=state.top+'px';toolbar.style.right='auto';toolbar.style.bottom='auto'}}
@@ -46,6 +59,5 @@
   let drag=null;const grip=toolbar.querySelector('.tool-grip');grip.addEventListener('pointerdown',e=>{if(state.locked)return;const r=toolbar.getBoundingClientRect();drag={x:e.clientX-r.left,y:e.clientY-r.top};grip.setPointerCapture(e.pointerId)});grip.addEventListener('pointermove',e=>{if(!drag||state.locked)return;const r=toolbar.getBoundingClientRect();state.left=Math.max(6,Math.min(innerWidth-r.width-6,e.clientX-drag.x));state.top=Math.max(6,Math.min(innerHeight-r.height-6,e.clientY-drag.y));render()});grip.addEventListener('pointerup',()=>{drag=null;save()});
   addEventListener('resize',()=>{const r=toolbar.getBoundingClientRect();if(r.right>innerWidth||r.bottom>innerHeight){state.locked=false;defaultPos();render();save()}});
   document.querySelectorAll('footer.footer').forEach(f=>{let v=f.querySelector('.site-version');if(!v){v=document.createElement('span');v.className='site-version';f.appendChild(v)}v.textContent=`MadaNotes ${VERSION} · mise à jour ${UPDATED}`});
-  const load=(src,key)=>{if(document.querySelector(`script[data-loader="${key}"]`))return;const s=document.createElement('script');s.src=src;s.defer=true;s.dataset.loader=key;document.body.appendChild(s)};
-  load(B+'assets/js/help-panel.js?v=2.0.2','help-panel');if(location.pathname.includes('/aide/'))load(B+'assets/js/help-page.js?v=2.0.2','help-page');if(location.pathname.includes('/solaire/materiel/'))load(B+'assets/js/material-links.js?v=2.0.2','material-links');load(B+'assets/js/pdf-links.js?v=2.0.2','pdf-links');load(B+'assets/js/ai-assist.js?v=2.0.2','ai-assist');load(B+'assets/js/ui-upgrade.js?v=2.0.2','ui-upgrade');
+  if(location.pathname.includes('/aide/'))load(B+'assets/js/help-page.js?v=2.0.3','help-page');if(location.pathname.includes('/solaire/materiel/'))load(B+'assets/js/material-links.js?v=2.0.3','material-links');load(B+'assets/js/pdf-links.js?v=2.0.3','pdf-links');load(B+'assets/js/ai-assist.js?v=2.0.3','ai-assist');load(B+'assets/js/ui-upgrade.js?v=2.0.3','ui-upgrade');
 })();
