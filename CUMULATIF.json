@@ -1,5 +1,5 @@
 {
-  "package": "MadaNotes_CUMULATIF_V1.2",
+  "package": "MadaNotes_CUMULATIF_V1.3",
   "type": "snapshot cumulatif",
   "date_mise_a_jour": "2026-08-08",
   "security": {
@@ -9,23 +9,21 @@
     "upload_status": "beta_demo"
   },
   "includes": [
-    "dimensionnement avec nombre de panneaux et puissance unitaire",
-    "calcul automatique puissance champ photovoltaique",
-    "batterie nominale DOD et batterie utile calculee",
-    "HSP avec liens PVGIS et Global Solar Atlas",
-    "scenario consommation avec nombre de materiels puissance unitaire duree coefficient et periode",
-    "durees exprimees en heures decimales",
-    "KPI compacts total jour nuit production couverture PV et batterie",
-    "sauvegarde et chargement JSON local du scenario",
-    "aide contextuelle avec formules et ancres",
-    "page aide globale avec sommaire",
-    "bouton aide dans header et toolbar",
-    "navigation Ajouter beta et Analyse beta restauree",
-    "sous-section fabricant distributeur fournisseur factorisee sur les fiches solaires",
-    "liens Growatt international france et Madagascar",
-    "liens Greenline Madagascar pour le fournisseur de l offre",
-    "liens Korman et Sanifer pour le groupe electrogene",
-    "footer commun avec version et date",
+    "scenario dimensionnement par defaut charge automatiquement depuis JSON versionne",
+    "sauvegarde et chargement de variantes JSON locales",
+    "parametres PV regroupes sur une ligne responsive",
+    "parametres batterie nominale DOD et batterie utile regroupes sur une ligne responsive",
+    "periodes consommation en emojis soleil lune et continu avec infobulles",
+    "coefficient de marge explique comme marge prudente et non comme courant de demarrage",
+    "aide contextuelle generalisee et ancree sur les rubriques",
+    "panneau aide flottant deplacable redimensionnable verrouillable et fermable",
+    "aide complete ouverte dans un nouvel onglet",
+    "KPI avec aide contextuelle detaillee",
+    "toolbar repositionnee automatiquement si elle sort de la fenetre apres redimensionnement",
+    "toolbar deverrouillee automatiquement lors d une correction hors cadre",
+    "navigation Ajouter beta Analyse beta et Aide",
+    "liens de retour depuis aide vers les pages concernees",
+    "footer commun version V1.3 et date de mise a jour",
     "template materiel commun et assistance IA multi-onglets"
   ]
 }
