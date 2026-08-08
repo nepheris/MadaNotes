@@ -3,7 +3,7 @@
 Mini-site documentaire statique, mobile-first, destiné à centraliser des informations pratiques,
 des manuels et des fichiers de dépannage.
 
-## État cumulatif V0.4
+## État cumulatif V0.5
 
 Le dépôt contient actuellement :
 
@@ -11,7 +11,8 @@ Le dépôt contient actuellement :
 2. les fiches matériel enrichies, notamment le groupe Korman ;
 3. les ressources documentaires locales et externes ;
 4. un accès public direct via GitHub Pages ;
-5. un QR code de partage depuis la page d'accueil.
+5. un QR code de partage depuis la page d'accueil ;
+6. une indexation automatique des documents du dépôt pour Quad, Korman et SOS.
 
 ## Accès
 
@@ -24,7 +25,7 @@ URL publique :
 ## Structure
 
 - `index.html` : accueil Mada Notes.
-- `solaire/` : installation, matériel, monitoring et analyse.
+- `solaire/` : installation, matériel, monitoring, documents et analyse.
 - `quad/` : documentation GOES Iron 450 et documents associés.
 - `sos/` : fichiers rapides à visualiser ou télécharger.
 - `assets/` : CSS, JavaScript et images communs.
@@ -32,7 +33,14 @@ URL publique :
 
 ## Documents automatiques
 
-Les pages Quad, Korman, Documents et SOS interrogent le dépôt public à chaque ouverture afin d'afficher les fichiers réellement présents. Le module commun est `assets/js/repo-docs.js`. La page SOS utilise `assets/js/sos.js` et recherche récursivement tout le contenu de `sos/files/`, y compris les sous-dossiers.
+Les pages Quad, Korman, Documents et SOS interrogent le dépôt public à chaque ouverture afin d'afficher les fichiers réellement présents.
+
+- `assets/js/repo-docs.js` : indexation générique des documents depuis l'arbre GitHub.
+- `assets/js/sos.js` : indexation récursive de `sos/files/`, y compris les sous-dossiers, avec boutons Ouvrir / Télécharger.
+- `quad/documents.html` : notices officielles GOES et fichiers locaux du quad détectés automatiquement.
+- `solaire/documents.html` : documents solaires, Korman et compresseur détectés automatiquement.
+
+Après un push, un simple rechargement de la page suffit pour actualiser les listes.
 
 ## GitHub Pages
 
@@ -42,12 +50,12 @@ URL :
 
 `https://nepheris.github.io/MadaNotes/`
 
-## Mise à jour V0.4
+## Mise à jour V0.5
 
-- Suppression de la documentation obsolète relative à l'ancien code d'accès.
-- Ajout du QR code de partage Mada Notes sur l'accueil.
-- Ajout des métadonnées SEO/sociales de base sur l'accueil.
-- Factorisation des styles du bloc QR dans la feuille CSS commune.
-- Conservation de la navigation principale sur mobile avec défilement horizontal si nécessaire.
-- Documentation Korman enrichie avec distinction explicite des références 01066672 et 214125.
-- Détection automatique des documents Quad, Korman et SOS depuis le dépôt public.
+- Documentation GOES Iron 450 enrichie avec accès direct au manuel français officiel.
+- Nouvelle page `quad/documents.html`.
+- Détection automatique des PDF Quad dans plusieurs dossiers du dépôt.
+- Liens Korman FP-214125 et N-214125 conservés avec distinction du modèle principal 01066672.
+- Détection automatique des documents Korman locaux.
+- Section dédiée aux documents compresseur, sans attribuer un manuel à un modèle tant que la référence réelle n'est pas confirmée.
+- SOS recherche désormais récursivement tous les fichiers de `sos/files/` à chaque chargement et propose une actualisation manuelle.
