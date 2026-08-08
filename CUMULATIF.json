@@ -1,5 +1,5 @@
 {
-  "package": "MadaNotes_CUMULATIF_V0.8",
+  "package": "MadaNotes_CUMULATIF_V0.9",
   "type": "snapshot cumulatif",
   "security": {
     "public_site": true,
@@ -11,15 +11,20 @@
     "acces rapides accueil-solaire-quad-sos",
     "navigation hierarchique au survol et au clic",
     "toolbar flottante verrouillable et deplacable",
-    "toggle trois etats defaut-tout deplier-tout replier",
-    "bouton retour en haut",
+    "toolbar compactable par bouton points",
+    "cadenas monochrome rouge verrouille vert deverrouille",
+    "toggle compact trois etats fleches defaut-tout deplier-tout replier",
+    "bouton retour en haut compact",
     "sources entretien du quad",
+    "liens fabricant-centre notices-distributeur dans quad et korman",
+    "documents statiques ouvrir-telecharger selon format",
+    "fiche technique Sanifer exacte 01066672",
+    "distinction Korman 01066672 exact et 214125 modele proche",
     "assistance IA multi-onglets Gemini-ChatGPT-DeepSeek-Qwen",
     "drapeau chinois sur DeepSeek et Qwen",
     "documents automatiques ouvrir-telecharger selon format",
     "fiches materiel homogenes et repliables",
     "sources cliquables pour references et consommables",
-    "suppression compresseur",
     "interface upload beta avec afficher-masquer mot de passe",
     "architecture upload sans compte et sans secret client"
   ]
