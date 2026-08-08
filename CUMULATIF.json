@@ -1,5 +1,5 @@
 {
-  "package": "MadaNotes_CUMULATIF_V1.6",
+  "package": "MadaNotes_CUMULATIF_V1.7",
   "type": "snapshot cumulatif",
   "date_mise_a_jour": "2026-08-08",
   "security": {
@@ -11,21 +11,17 @@
   "includes": [
     "audit global des sections et sous-sections repliables",
     "cartes de contenu avec titre h2 automatiquement converties en sections repliables",
-    "cartes de navigation card-link conservees non repliables",
     "tableaux automatiquement convertis en sous-sections repliables",
-    "titre h3 precedent reutilise comme titre de sous-section tableau",
-    "libelle Tableau ajoute lorsqu aucun titre de sous-section n existe",
-    "etat par defaut ouvert pour les blocs automatiques sauf regle explicite",
-    "etats existants des fiches materiel preserves",
-    "toolbar pilote aussi les nouvelles sections automatiques",
-    "styles differencies entre section principale et sous-section tableau",
-    "cadenas monochrome partage entre toolbar et aide contextuelle",
-    "ancre visuelle identique sur toolbar et aide contextuelle",
-    "toolbar toujours au premier plan et position par defaut bas droite",
-    "visualiseur PDF MadaNotes avec fallback vers document original",
+    "header sticky conserve sans trait de separation visible",
+    "aide contextuelle redimensionnable depuis les quatre bords et les quatre coins",
+    "poignee bas droite conservee comme repere visuel de redimensionnement",
+    "redimensionnement de l aide actif uniquement lorsque le panneau est deverrouille",
+    "position dimensions et verrouillage de l aide memorises localement",
+    "cache-busting du panneau d aide V1.7",
+    "guide PDF orientation Sainte-Marie identifie et emplacement depot reserve",
     "page installation en disposition un tiers orientation deux tiers scenario",
     "recapitulatif KPI du scenario par defaut visible sur la page installation",
     "scenario dimensionnement par defaut charge automatiquement depuis JSON versionne",
-    "footer commun version V1.6 et date de mise a jour"
+    "footer commun version V1.7 et date de mise a jour"
   ]
 }
