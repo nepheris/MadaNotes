@@ -1,5 +1,5 @@
 {
-  "package": "MadaNotes_CUMULATIF_V0.7",
+  "package": "MadaNotes_CUMULATIF_V0.8",
   "type": "snapshot cumulatif",
   "security": {
     "public_site": true,
@@ -8,14 +8,19 @@
     "upload_status": "beta_demo"
   },
   "includes": [
-    "navigation hiérarchique verticale",
-    "documents automatiques",
-    "ouvrir/télécharger selon format",
-    "fiches matériel homogènes et repliables",
-    "sources cliquables pour références et consommables",
-    "assistance IA identification et manuel-entretien",
+    "acces rapides accueil-solaire-quad-sos",
+    "navigation hierarchique au survol et au clic",
+    "toolbar flottante verrouillable et deplacable",
+    "toggle trois etats defaut-tout deplier-tout replier",
+    "bouton retour en haut",
+    "sources entretien du quad",
+    "assistance IA multi-onglets Gemini-ChatGPT-DeepSeek-Qwen",
+    "drapeau chinois sur DeepSeek et Qwen",
+    "documents automatiques ouvrir-telecharger selon format",
+    "fiches materiel homogenes et repliables",
+    "sources cliquables pour references et consommables",
     "suppression compresseur",
-    "interface upload bêta avec afficher-masquer mot de passe",
+    "interface upload beta avec afficher-masquer mot de passe",
     "architecture upload sans compte et sans secret client"
   ]
 }
