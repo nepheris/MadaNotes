@@ -26,11 +26,11 @@ jobs:
           mkdir -p assets/documents/maison/machine-a-laver
           mkdir -p assets/documents/solaire/groupe assets/documents/solaire/batterie assets/documents/solaire/onduleur assets/documents/solaire/monitoring
 
-          gdown --id 1Q9Z7WDFZG0nZkAlA06x0PPqcBF2PZa7D -O assets/documents/solaire/groupe/korman-3500w-01066672-dossier-technique.pdf
-          gdown --id 1-F6bluoa2ix0h4s9apt1EebpIsZ9G_1Q -O assets/documents/solaire/batterie/greenline-m16s200bl-v-livret-technique.pdf
-          gdown --id 1yGZLH2MqIh5Sqx6AUI5KnXsUuuaHcVcW -O assets/documents/solaire/onduleur/growatt-6kva-dossier-technique.pdf
-          gdown --id 1LERsZCs2VbGpROScmpW17VE-cjEW99Cd -O assets/documents/solaire/monitoring/growatt-shinewifi-f-pro-guide-configuration.pdf
-          gdown --id 13xccy1ZXDcvTpK7-jZeX1EANg0L6SWYW -O assets/documents/maison/machine-a-laver/touch-xqg60-1016p-livret-technique.pdf
+          gdown 1Q9Z7WDFZG0nZkAlA06x0PPqcBF2PZa7D -O assets/documents/solaire/groupe/korman-3500w-01066672-dossier-technique.pdf
+          gdown 1-F6bluoa2ix0h4s9apt1EebpIsZ9G_1Q -O assets/documents/solaire/batterie/greenline-m16s200bl-v-livret-technique.pdf
+          gdown 1yGZLH2MqIh5Sqx6AUI5KnXsUuuaHcVcW -O assets/documents/solaire/onduleur/growatt-6kva-dossier-technique.pdf
+          gdown 1LERsZCs2VbGpROScmpW17VE-cjEW99Cd -O assets/documents/solaire/monitoring/growatt-shinewifi-f-pro-guide-configuration.pdf
+          gdown 13xccy1ZXDcvTpK7-jZeX1EANg0L6SWYW -O assets/documents/maison/machine-a-laver/touch-xqg60-1016p-livret-technique.pdf
 
           cat > /tmp/expected.sha256 <<'EOF'
           3e53abbcfe5e89391de83c4662bb29e22516e4efcd2ce664ac97a790c4ee77f5  assets/documents/solaire/groupe/korman-3500w-01066672-dossier-technique.pdf
