@@ -1,22 +1,27 @@
 {
   "assets/documents/maison/machine-a-laver/touch-xqg60-1016p-livret-technique.pdf": {
-    "documentDate": "Non indiquée dans le document source",
-    "published": "26/09/2026"
+    "documentDate": "26/09/2026",
+    "published": "26/09/2026",
+    "sourceDate": "Non indiquée dans le document source"
   },
   "assets/documents/solaire/groupe/korman-3500w-01066672-dossier-technique.pdf": {
-    "documentDate": "Non indiquée dans le document source",
-    "published": "26/09/2026"
+    "documentDate": "26/09/2026",
+    "published": "26/09/2026",
+    "sourceDate": "Non indiquée dans le document source"
   },
   "assets/documents/solaire/batterie/greenline-m16s200bl-v-livret-technique.pdf": {
-    "documentDate": "Non indiquée dans le document source",
-    "published": "26/09/2026"
+    "documentDate": "26/09/2026",
+    "published": "26/09/2026",
+    "sourceDate": "Non indiquée dans le document source"
   },
   "assets/documents/solaire/onduleur/growatt-6kva-dossier-technique.pdf": {
-    "documentDate": "Non indiquée dans le document source",
-    "published": "26/09/2026"
+    "documentDate": "26/09/2026",
+    "published": "26/09/2026",
+    "sourceDate": "Non indiquée dans le document source"
   },
   "assets/documents/solaire/monitoring/growatt-shinewifi-f-pro-guide-configuration.pdf": {
-    "documentDate": "Non indiquée dans le document source",
-    "published": "26/09/2026"
+    "documentDate": "26/09/2026",
+    "published": "26/09/2026",
+    "sourceDate": "Non indiquée dans le document source"
   }
 }
