@@ -1,0 +1,104 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1754 >>
+stream
+BT
+/F1 10 Tf
+50 790 Td
+12 TL
+(Onduleur / convertisseur Growatt 6 kVA - Dossier technique structure) Tj
+T*
+(====================================================================) Tj
+T*
+() Tj
+T*
+(IDENTIFICATION) Tj
+T*
+(--------------) Tj
+T*
+(Marque : Growatt. Offre de reference : Greenline / OCITEC PF5359. Puissance annoncee : 6) Tj
+T*
+(kVA. La reference exacte de l'onduleur installe reste a confirmer sur la plaque. Les) Tj
+T*
+(references GA6248JMH \(6200 W\) et SPF 6000 ES Plus sont conservees comme candidats) Tj
+T*
+(documentaires, pas comme identification certaine.) Tj
+T*
+() Tj
+T*
+(DONNEES CANDIDATES) Tj
+T*
+(------------------) Tj
+T*
+(GA6248JMH : 6200 W, puissance crete 12400 VA, batterie 48 VDC, PV max 6200 W, plage MPPT) Tj
+T*
+(candidate 90-500 VDC, charge PV / AC candidate 100 A / 80 A. Ne pas appliquer ces valeurs) Tj
+T*
+(tant que la plaque de l'appareil n'est pas confirmee.) Tj
+T*
+() Tj
+T*
+(ENTRETIEN) Tj
+T*
+(---------) Tj
+T*
+(Maintenir les aerations et dissipateurs propres. Surveiller alarmes et temperatures.) Tj
+T*
+(Conserver une copie des parametres avant modification. Valider reglages batterie/PV) Tj
+T*
+(uniquement avec la reference exacte installee.) Tj
+T*
+() Tj
+T*
+(RECHERCHE DOCUMENTAIRE) Tj
+T*
+(----------------------) Tj
+T*
+(Requete conseillee : Growatt 6kVA PF5359 GA6248JMH SPF 6000 ES Plus manual user guide) Tj
+T*
+(installation settings battery BMS PDF. Priorite : identifier la plaque exacte avant toute) Tj
+T*
+(modification.) Tj
+T*
+() Tj
+T*
+(SOURCE) Tj
+T*
+(------) Tj
+T*
+(Dossier structure local MadaNotes rattache au livret fourni "Livret Technique Convertisseur) Tj
+T*
+(Solaire Growatt Mada.pdf". Le document source est en grande partie graphique et la reference) Tj
+T*
+(exacte reste a confirmer.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2116
+%%EOF
