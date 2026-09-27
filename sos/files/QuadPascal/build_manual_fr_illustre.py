@@ -28,16 +28,6 @@ missing = [n for n in range(1, 96) if n not in fr]
 if missing:
     raise RuntimeError(f"Missing translated pages: {missing}")
 
-clean = fitz.open()
-for i, sp in enumerate(src):
-    p = clean.new_page(width=sp.rect.width, height=sp.rect.height)
-    p.show_pdf_page(p.rect, src, i)
-    for b in sp.get_text("blocks"):
-        x0, y0, x1, y1, txt, *_ = b
-        if txt and txt.strip():
-            r = fitz.Rect(x0-1, y0-0.5, x1+1, y1+0.5) & p.rect
-            p.draw_rect(r, color=None, fill=(1, 1, 1), overlay=True)
-
 out = fitz.open()
 W, H = 841.89, 595.28  # A4 landscape
 margin, left_w, sep = 24, 330, 16
@@ -63,14 +53,14 @@ for n in range(1, 96):
 
     p.insert_text((margin, 28), "TAO MOTOR TGA300F-01 / T-LANDER 300",
                   fontsize=12, fontname="dvb")
-    p.insert_text((margin, 46), f"Manuel utilisateur - version française illustrée - page {n}/95",
+    p.insert_text((margin, 46), f"Manuel bilingue EN / FR — original à gauche, traduction française à droite — page {n}/95",
                   fontsize=7.2, fontname="dv", color=(0.35, 0.35, 0.35))
 
     visual = fitz.Rect(margin, 62, margin + left_w, H - 36)
     p.draw_rect(visual, color=(0.82, 0.82, 0.82), width=0.7)
-    p.show_pdf_page(visual + (5, 5, -5, -5), clean, n-1, keep_proportion=True)
+    p.show_pdf_page(visual + (5, 5, -5, -5), src, n-1, keep_proportion=True)
     p.insert_text((margin+4, H-22),
-                  "Illustrations et schémas conservés depuis le manuel constructeur anglais.",
+                  "Page originale constructeur en anglais — texte, illustrations et schémas conservés intégralement.",
                   fontsize=5.6, fontname="dv", color=(0.42, 0.42, 0.42))
 
     p.draw_line((right_x-8, 62), (right_x-8, H-36),
@@ -81,9 +71,9 @@ for n in range(1, 96):
     fit_text(p, fitz.Rect(right_x, 96, right_x+right_w, body_bottom), body)
 
 out.set_metadata({
-    "title": "Tao Motor TGA300F-01 / T-Lander 300 - Manuel utilisateur FR illustré",
+    "title": "Tao Motor TGA300F-01 / T-Lander 300 - Manuel bilingue EN / FR",
     "author": "Traduction française à partir du manuel constructeur Tao Motor",
-    "subject": "Manuel utilisateur français illustré - TGA300F-01",
+    "subject": "Manuel utilisateur bilingue anglais / français - TGA300F-01",
     "keywords": "Tao Motor,TGA300F-01,T-Lander 300,quad,ATV,manuel,français"
 })
 out.save(OUT, garbage=4, deflate=True, clean=True)
