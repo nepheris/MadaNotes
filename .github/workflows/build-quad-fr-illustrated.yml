@@ -35,13 +35,13 @@ jobs:
       - name: Build PDF
         run: |
           python sos/files/QuadPascal/build_manual_fr_illustre.py
-          test -s sos/files/QuadPascal/Tao_Motor_TGA300F-01_T-Lander_300_Manuel_utilisateur_FR_illustre.pdf
+          test -s sos/files/QuadPascal/Tao_Motor_TGA300F-01_T-Lander_300_Manuel_utilisateur_Traduction_bilingue_FR-EN.pdf
 
       - name: Commit generated PDF
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sos/files/QuadPascal/Tao_Motor_TGA300F-01_T-Lander_300_Manuel_utilisateur_FR_illustre.pdf
+          git add sos/files/QuadPascal/Tao_Motor_TGA300F-01_T-Lander_300_Manuel_utilisateur_Traduction_bilingue_FR-EN.pdf
           if git diff --cached --quiet; then
             echo "PDF already up to date."
           else
