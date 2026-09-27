@@ -78,6 +78,5 @@ out.set_metadata({
 })
 out.save(OUT, garbage=4, deflate=True, clean=True)
 out.close()
-clean.close()
 src.close()
 print(f"Generated {OUT} ({OUT.stat().st_size} bytes)")
