@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 SRC = ROOT / "Tao_Motor_TGA300F-01_T-Lander_300_Manuel_utilisateur_EN.pdf"
 TR = ROOT / "Tao_Motor_TGA300F-01_T-Lander_300_Manuel_utilisateur_FR_source.txt"
-OUT = ROOT / "Tao_Motor_TGA300F-01_T-Lander_300_Manuel_utilisateur_FR_illustre.pdf"
+OUT = ROOT / "Tao_Motor_TGA300F-01_T-Lander_300_Manuel_utilisateur_Traduction_bilingue_FR-EN.pdf"
 FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
