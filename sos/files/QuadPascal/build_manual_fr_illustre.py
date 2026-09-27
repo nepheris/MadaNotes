@@ -9,7 +9,7 @@ FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
 text = TR.read_text(encoding="utf-8-sig")
-pat = re.compile(r"(?m)^PAGE\\s+(\\d+)\\s+—\\s+(.+?)\\s*$")
+pat = re.compile(r"(?m)^PAGE\s+(\d+)\s+—\s+(.+?)\s*$")
 matches = list(pat.finditer(text))
 fr = {}
 for i, m in enumerate(matches):
