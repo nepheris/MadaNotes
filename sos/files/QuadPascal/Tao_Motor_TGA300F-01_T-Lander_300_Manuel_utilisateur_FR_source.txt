@@ -1,0 +1,997 @@
+TAO MOTOR TGA300F-01 — MANUEL UTILISATEUR — TRADUCTION FRANÇAISE 
+Document de travail — progression : 95 / 95 pages — TERMINÉE 
+ 
+PAGE 1 — COUVERTURE 
+Manuel du propriétaire 
+LIRE ATTENTIVEMENT CE MANUEL 
+Il contient des informations importantes concernant la sécurité. 
+TGA300F-01 
+ 
+PAGE 2 — SOMMAIRE 
+1. Introduction — 1 
+2. Comprendre les avertissements — 6 
+3. Avertissements de sécurité — 8 
+4. Inspection quotidienne avant utilisation — 11 
+5. Avertissements d'utilisation — 12 
+6. V.I.N. — 24 
+7. Commandes et fonctions des composants — 25 
+8. Démarrage du moteur — 44 
+9. Période de rodage du véhicule — 45 
+10. Équipement du conducteur — 46 
+11. Transport de charges — 47 
+12. Conduite — 49 
+13. Système CVT — 60 
+14. Batterie — 62 
+15. Système d'échappement — 64 
+16. Entretien — 65 
+17. Dépannage — 85 
+18. Caractéristiques techniques — 89 
+19. Schéma électrique — 91 
+ 
+PAGE 3 — 1. INTRODUCTION 
+Félicitations pour l'achat de votre véhicule tout-terrain (ATV). Nous sommes fiers de vous 
+proposer ce produit conçu et fabriqué selon des normes élevées de performance et de 
+qualité. Nous sommes convaincus qu'il vous offrira un haut niveau de performances, de 
+fiabilité, de confort de conduite et de sécurité. 
+ 
+Ce manuel est fourni afin d'aider le propriétaire et les utilisateurs de cet ATV à se familiariser 
+avec ses caractéristiques de fonctionnement et ses nombreuses fonctions. Il contient 
+également des informations relatives à l'entretien et à la maintenance de votre ATV. 
+ 
+Veuillez lire attentivement ce manuel. Les informations contenues dans ce manuel du 
+propriétaire ainsi que les étiquettes d'avertissement fournies avec le produit sont essentielles 
+à l'utilisation sûre de votre ATV. Assurez-vous de comprendre et de respecter tous les 
+avertissements et toutes les instructions qui y figurent. 
+ 
+Si vous n'avez pas reçu l'un des documents ou éléments indiqués ci-dessus, contactez votre 
+revendeur et demandez qu'ils vous soient fournis. 
+ 
+
+
+
+Avis important concernant la sécurité 
+Ne modifiez jamais le moteur, le système de transmission, ni les systèmes mécaniques ou 
+électriques de votre ATV. N'installez jamais de pièces ou accessoires de seconde monte 
+destinés à augmenter la vitesse ou la puissance de votre ATV. 
+ 
+Le non-respect de ces avertissements augmente le risque d'accident pouvant entraîner la 
+MORT ou des BLESSURES GRAVES. 
+ 
+En outre, le non-respect de ces exigences entraînera l'annulation de la garantie de votre 
+ATV. 
+ 
+REMARQUE : l'ajout et l'utilisation de certains accessoires, notamment les tondeuses, 
+lames, pulvérisateurs, treuils et pare-brise, modifient les caractéristiques de comportement 
+de votre ATV. 
+ 
+PAGE 4 — CONDUITE RESPONSABLE / ÂGE RECOMMANDÉ 
+Adoptez une conduite responsable de l'ATV 
+Assurez-vous de comprendre et de respecter toutes les lois et exigences locales, 
+régionales/provinciales et nationales applicables à la conduite. 
+ 
+N'oubliez pas : respectez votre véhicule, respectez l'environnement et respectez la propriété 
+d'autrui. Lorsque vous conduisez, vous êtes responsable de votre sécurité et de celle des 
+personnes qui vous entourent. 
+ 
+Recommandation d'âge 
+Respectez toujours la recommandation d'âge suivante : véhicule destiné à un usage de loisir 
+par un conducteur expérimenté âgé de 16 ans ou plus. 
+ 
+PAGE 5 — RÈGLES ESSENTIELLES DE SÉCURITÉ (1/3) 
+UN ATV PEUT ÊTRE DANGEREUX À UTILISER. Un ATV se comporte différemment des 
+autres véhicules, notamment des motos et des automobiles. Une collision ou un 
+retournement peut survenir rapidement, même lors de manœuvres courantes telles qu'un 
+virage, la conduite en pente ou le franchissement d'obstacles, si les précautions appropriées 
+ne sont pas prises. 
+ 
+Le non-respect des instructions suivantes peut entraîner des BLESSURES GRAVES ou la 
+MORT. 
+ 
+• Lisez attentivement ce manuel et toutes les étiquettes, et respectez les procédures 
+d'utilisation décrites. 
+• N'utilisez jamais un ATV sans avoir reçu une formation appropriée. Suivez une formation ; 
+les débutants doivent être formés par un instructeur qualifié. 
+• Ne permettez jamais à une personne qui n'est pas adulte de conduire cet ATV. 
+• Ne permettez jamais à un invité de conduire cet ATV sans qu'il ait lu ce manuel et toutes 
+les étiquettes du produit et suivi une formation certifiée. 
+• Évitez toujours d'utiliser l'ATV sur des surfaces revêtues, notamment trottoirs, allées, 
+parkings et rues. 
+
+
+
+• Portez toujours un casque homologué et correctement ajusté, ainsi qu'une protection 
+oculaire, des gants, des bottes, un vêtement à manches longues ou une veste et un 
+pantalon long. 
+• Ne consommez jamais d'alcool ni de drogues avant ou pendant la conduite. 
+• Ne roulez jamais à une vitesse excessive. Adaptez toujours votre vitesse au terrain, à la 
+visibilité, aux conditions d'utilisation et à votre expérience. 
+• Ne tentez jamais de roues arrière, de sauts ni d'autres acrobaties. 
+• Inspectez toujours votre ATV avant chaque utilisation afin de vérifier qu'il est en état de 
+fonctionner en toute sécurité. Respectez les procédures et périodicités d'inspection et 
+d'entretien décrites dans ce manuel. 
+• Gardez toujours les deux mains sur le guidon et les deux pieds sur les repose-pieds 
+pendant la conduite. 
+• Roulez lentement et avec une prudence accrue sur un terrain inconnu. Soyez toujours 
+attentif aux changements d'état du terrain. 
+• N'utilisez jamais l'ATV sur un terrain excessivement accidenté, glissant ou meuble tant que 
+vous ne maîtrisez pas les techniques nécessaires. 
+• Respectez toujours les procédures de virage décrites dans ce manuel. Entraînez-vous 
+d'abord à faible vitesse et ne tournez jamais à une vitesse excessive. 
+ 
+PAGE 6 — RÈGLES ESSENTIELLES DE SÉCURITÉ (2/3) 
+• Faites toujours contrôler l'ATV par un revendeur agréé après un accident. 
+• N'utilisez jamais l'ATV sur une pente trop raide pour le véhicule ou pour vos capacités. 
+Entraînez-vous sur de petites pentes avant d'en aborder de plus importantes. 
+• Pour monter une pente, respectez toujours la procédure décrite dans ce manuel. Examinez 
+attentivement le terrain avant de commencer la montée. Ne montez jamais une pente 
+excessivement glissante ou meuble. Déplacez votre poids vers l'avant. N'ouvrez jamais 
+brutalement les gaz et n'effectuez pas de changement de rapport brusque. Ne franchissez 
+jamais le sommet d'une pente à grande vitesse. 
+• Pour descendre une pente et freiner en descente, respectez toujours les procédures 
+décrites dans ce manuel. Examinez attentivement le terrain avant la descente. Déplacez 
+votre poids vers l'arrière. Ne descendez jamais à grande vitesse. Évitez de descendre en 
+biais ; lorsque cela est possible, descendez droit dans la pente. 
+• Pour traverser une pente latéralement, respectez toujours les procédures décrites dans ce 
+manuel. Évitez les surfaces excessivement glissantes ou meubles. Déplacez votre poids 
+vers le côté amont. N'essayez jamais de faire demi-tour sur une pente tant que vous ne 
+maîtrisez pas la technique de virage sur terrain plat. Évitez autant que possible de traverser 
+latéralement une pente raide. 
+• Utilisez toujours la procédure appropriée si le moteur cale ou si le véhicule recule lors 
+d'une montée. Pour éviter le calage, maintenez une vitesse régulière. Si le véhicule cale ou 
+recule, appliquez la procédure spéciale de freinage décrite dans ce manuel. Descendez du 
+côté amont, ou d'un côté quelconque si le véhicule est orienté directement vers le haut. 
+Retournez l'ATV puis remontez en suivant la procédure décrite dans ce manuel. 
+• Vérifiez toujours la présence d'obstacles avant de rouler dans une zone nouvelle. Ne 
+tentez jamais de franchir de gros obstacles, tels que de gros rochers ou des arbres couchés. 
+Respectez les procédures décrites dans ce manuel. 
+• Soyez toujours prudent en cas de dérapage ou de glissade. Sur les surfaces glissantes, 
+notamment la glace, roulez lentement et avec une extrême prudence afin de réduire le 
+risque de perte de contrôle. 
+
+
+
+• Évitez de traverser des eaux profondes ou à courant rapide. Ne dépassez pas la 
+profondeur maximale recommandée. Roulez lentement, répartissez soigneusement votre 
+poids, évitez les mouvements brusques et maintenez une progression lente et régulière. 
+N'effectuez ni virages ni arrêts brusques et ne modifiez pas brutalement l'ouverture des gaz. 
+• Les freins mouillés peuvent perdre en efficacité. Testez-les après une traversée d'eau. 
+ 
+PAGE 7 — RÈGLES ESSENTIELLES DE SÉCURITÉ (3/3) 
+Si nécessaire, actionnez légèrement les freins plusieurs fois afin que le frottement contribue 
+à sécher les plaquettes. 
+• Avant de passer en marche arrière, vérifiez toujours qu'aucun obstacle ni aucune personne 
+ne se trouve derrière vous. Lorsque la marche arrière peut être engagée en toute sécurité, 
+reculez lentement. Évitez les virages serrés en marche arrière. 
+• Utilisez toujours des pneus de la taille et du type spécifiés dans ce manuel. Maintenez 
+toujours la pression des pneus aux valeurs prescrites. 
+• Ne modifiez jamais un ATV par une installation incorrecte ou une utilisation inadaptée 
+d'accessoires. 
+• Ne dépassez jamais la capacité de charge indiquée. La charge doit être correctement 
+répartie et solidement fixée. Réduisez votre vitesse et respectez les instructions du manuel 
+lorsque vous transportez une charge ou tractez une remorque. Augmentez la distance de 
+freinage. 
+ 
+PAGE 8 — 2. COMPRENDRE LES AVERTISSEMENTS 
+ATTENTION 
+Ce véhicule est RÉSERVÉ AUX ADULTES : ce n'est pas un jouet. LISEZ ET COMPRENEZ 
+LES AVERTISSEMENTS ET LE MANUEL DU PROPRIÉTAIRE AVANT UTILISATION. 
+ 
+APPRENEZ À CONNAÎTRE VOTRE VÉHICULE AVANT DE COMMENCER À ROULER ! 
+ 
+Lisez attentivement ce manuel en vous reportant aux différentes parties du véhicule 
+abordées. L'utilisation de ce véhicule implique des responsabilités concernant votre sécurité 
+personnelle, celle des autres et la protection de l'environnement. 
+ 
+REMARQUE : les illustrations utilisées dans ce manuel sont données à titre de 
+représentation générale uniquement. Votre modèle peut être différent. 
+ 
+PAGE 9 — ALERTE DE SÉCURITÉ 
+Les AVERTISSEMENTS identifient des instructions ou procédures particulières qui, si elles 
+ne sont pas correctement respectées, peuvent entraîner des blessures ou la mort. Lisez 
+attentivement tous les avertissements de ce manuel. Suivez leurs instructions afin de rester 
+en sécurité. 
+ 
+Les mots de signalisation suivants sont utilisés dans ce manuel : 
+Symbole d'alerte de sécurité : lorsque vous voyez ce symbole sur votre machine ou dans ce 
+manuel, soyez attentif au risque potentiel de blessure. Votre sécurité est en jeu. 
+AVERTISSEMENT — indique un danger potentiel susceptible d'entraîner des blessures 
+graves ou la mort. 
+ATTENTION — indique un danger potentiel susceptible d'entraîner des blessures légères ou 
+des dommages à l'ATV. 
+
+
+
+ATTENTION — indique une situation pouvant endommager la machine. 
+REMARQUE — le terme « REMARQUE » signale des informations ou instructions 
+importantes. 
+ 
+PAGE 10 — 3. AVERTISSEMENTS DE SÉCURITÉ 
+REMARQUE : des autocollants d'avertissement ont été apposés sur le véhicule pour votre 
+protection. Lisez attentivement les instructions figurant sur chaque autocollant et 
+respectez-les. Si un autocollant devient illisible ou se décolle, contactez votre revendeur afin 
+d'en obtenir un de remplacement. 
+ 
+Le schéma de cette page indique les emplacements numérotés des autocollants 
+d'avertissement sur le véhicule (1 à 5). 
+ 
+PAGE 11 — ÉTIQUETTES DE SÉCURITÉ : EMPLACEMENTS 
+Cette page présente l’emplacement de l’étiquette d’avertissement n° 1 sur le véhicule. 
+L’étiquette doit rester présente, lisible et en bon état. En cas de détérioration ou de 
+disparition, contactez le revendeur pour son remplacement. 
+ 
+PAGE 12 — ÉTIQUETTES DE SÉCURITÉ : EMPLACEMENTS 2 À 5 
+Cette page présente l’emplacement des étiquettes d’avertissement n° 2, 3, 4 et 5 sur le 
+véhicule. Lisez et respectez chacune de ces étiquettes avant l’utilisation. 
+ 
+PAGE 13 — 4. INSPECTION QUOTIDIENNE AVANT UTILISATION 
+AVERTISSEMENT 
+Vous devez inspecter votre ATV avant chaque utilisation afin de vous assurer qu’il est en 
+bon état de fonctionnement. Si l’inspection appropriée n’est pas effectuée, des blessures 
+graves ou mortelles peuvent en résulter. 
+ 
+Utilisez la liste de contrôle suivante avant chaque sortie : 
+1. Pneus : vérifier leur état et leur pression. 
+2. Réservoir de carburant : remplir au niveau approprié. 
+3. Tous les freins : vérifier leur fonctionnement, leur réglage et le niveau du liquide, y compris 
+le frein auxiliaire. 
+4. Accélérateur : vérifier qu’il fonctionne librement et qu’il revient correctement en position 
+fermée. 
+5. Phare / feu arrière / feu stop : vérifier le fonctionnement de tous les témoins et 
+interrupteurs. 
+6. Coupe-circuit moteur : vérifier son bon fonctionnement. 
+7. Roues : vérifier le serrage des écrous de roue et d’essieu ; vérifier que les écrous d’essieu 
+sont sécurisés par des goupilles fendues. 
+8. Élément de filtre à air : vérifier l’encrassement ; nettoyer ou remplacer si nécessaire. 
+9. Direction : vérifier la liberté de mouvement et rechercher tout jeu anormal. 
+10. Pièces desserrées : inspecter visuellement le véhicule pour détecter tout composant 
+endommagé ou tout écrou, boulon ou élément de fixation desserré. 
+11. Casque, lunettes et vêtements du conducteur. 
+12. Liquide de refroidissement moteur : contrôler le niveau dans le vase de récupération. 
+ 
+PAGE 14 — 5. AVERTISSEMENTS D’UTILISATION : FORMATION ET ÉQUIPEMENT 
+
+
+
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Utiliser cet ATV sans avoir reçu une formation appropriée. 
+ 
+CONSÉQUENCES POSSIBLES 
+Le risque d’accident augmente fortement si le conducteur ne sait pas utiliser correctement 
+l’ATV dans différentes situations et sur différents types de terrain. 
+ 
+COMMENT ÉVITER LE DANGER 
+Les conducteurs débutants et inexpérimentés doivent suivre une formation certifiée. Ils 
+doivent ensuite apprendre et pratiquer régulièrement les techniques décrites dans le manuel 
+du propriétaire. 
+Pour plus d’informations sur les formations disponibles, contactez un revendeur ATV agréé. 
+ 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Utiliser cet ATV sans porter de casque homologué, de protection oculaire et de vêtements 
+de protection. 
+ 
+CONSÉQUENCES POSSIBLES 
+Conduire sans casque homologué augmente le risque de blessure grave à la tête ou de 
+décès en cas d’accident. 
+Conduire sans protection oculaire peut provoquer un accident et augmente le risque de 
+blessure grave en cas d’accident. 
+ 
+COMMENT ÉVITER LE DANGER 
+Portez toujours un casque homologué et correctement ajusté. 
+Portez également : une protection oculaire (lunettes ou écran facial), des gants, des bottes, 
+un vêtement à manches longues ou une veste, ainsi qu’un pantalon long. 
+ 
+PAGE 15 — ALCOOL, DROGUES ET VITESSE 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Utiliser cet ATV après avoir consommé de l’alcool ou des drogues. 
+ 
+CONSÉQUENCES POSSIBLES 
+Cela peut altérer gravement votre jugement, ralentir vos réactions, affecter votre équilibre et 
+votre perception et provoquer un accident. 
+ 
+COMMENT ÉVITER LE DANGER 
+Ne consommez jamais d’alcool ni de drogues avant ou pendant la conduite de cet ATV. 
+ 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Utiliser cet ATV à une vitesse excessive. 
+ 
+CONSÉQUENCES POSSIBLES 
+Cela augmente le risque de perdre le contrôle de l’ATV et de provoquer un accident. 
+
+
+
+ 
+COMMENT ÉVITER LE DANGER 
+Roulez toujours à une vitesse adaptée au terrain, à la visibilité, aux conditions d’utilisation et 
+à votre expérience. 
+ 
+PAGE 16 — INSPECTION ET POSITION DU CONDUCTEUR 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Ne pas inspecter l’ATV avant son utilisation. 
+ 
+CONSÉQUENCES POSSIBLES 
+Cela augmente le risque d’accident ou de dommages matériels. 
+ 
+COMMENT ÉVITER LE DANGER 
+Inspectez toujours votre ATV avant chaque utilisation afin de vérifier qu’il est en état de 
+fonctionner en toute sécurité. 
+Respectez toujours les procédures et périodicités d’inspection et d’entretien décrites dans le 
+manuel du propriétaire. 
+ 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Retirer les mains du guidon ou les pieds des repose-pieds pendant la conduite. 
+ 
+CONSÉQUENCES POSSIBLES 
+Retirer ne serait-ce qu’une main ou un pied peut réduire votre capacité à contrôler l’ATV ou 
+vous faire perdre l’équilibre et tomber. Si vous retirez un pied du repose-pied, votre pied ou 
+votre jambe peut entrer en contact avec les roues arrière, ce qui peut provoquer une 
+blessure ou un accident. 
+ 
+COMMENT ÉVITER LE DANGER 
+Gardez toujours les deux mains sur le guidon et les deux pieds sur les repose-pieds pendant 
+la conduite. 
+ 
+PAGE 17 — TERRAIN DIFFICILE ET MONTÉES 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Ne pas redoubler de prudence sur un terrain excessivement accidenté, glissant ou meuble. 
+ 
+CONSÉQUENCES POSSIBLES 
+Cela peut provoquer une perte d’adhérence ou de contrôle du véhicule, pouvant entraîner 
+un accident, y compris un retournement. 
+ 
+COMMENT ÉVITER LE DANGER 
+N’utilisez pas l’ATV sur un terrain excessivement accidenté, glissant ou meuble tant que 
+vous n’avez pas appris et pratiqué les techniques nécessaires pour contrôler le véhicule sur 
+ce type de terrain. 
+Soyez toujours particulièrement prudent dans ces conditions. 
+ 
+
+
+
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Monter une pente de manière incorrecte. 
+ 
+CONSÉQUENCES POSSIBLES 
+Cela peut provoquer une perte de contrôle ou le retournement de l’ATV. 
+ 
+COMMENT ÉVITER LE DANGER 
+Respectez toujours les procédures de montée décrites dans le manuel du propriétaire. 
+Examinez attentivement le terrain avant de commencer à monter. 
+Ne montez jamais une pente présentant une surface excessivement glissante ou meuble. 
+Déplacez votre poids vers l’avant. 
+N’ouvrez jamais brutalement les gaz : l’ATV pourrait se retourner vers l’arrière. 
+Ne franchissez jamais le sommet d’une pente à grande vitesse : un obstacle, une forte 
+déclivité, un autre véhicule ou une personne peut se trouver de l’autre côté. 
+ 
+PAGE 18 — VIRAGES ET PENTES TROP RAIDES 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Effectuer un virage de manière incorrecte. 
+ 
+CONSÉQUENCES POSSIBLES 
+L’ATV peut devenir incontrôlable, provoquer une collision ou se retourner. 
+ 
+COMMENT ÉVITER LE DANGER 
+Respectez toujours les procédures de virage décrites dans le manuel du propriétaire. 
+ 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Utiliser l’ATV sur des pentes excessivement raides. 
+ 
+CONSÉQUENCES POSSIBLES 
+Le véhicule peut se retourner plus facilement sur une pente très raide que sur une surface 
+plane ou une faible pente. 
+ 
+COMMENT ÉVITER LE DANGER 
+N’utilisez jamais l’ATV sur une pente trop raide pour le véhicule ou pour vos capacités. 
+Entraînez-vous sur de petites pentes avant d’aborder des pentes plus importantes. 
+N’utilisez jamais l’ATV sur une pente supérieure à 17°. 
+ 
+PAGE 19 — DESCENTES ET TRAVERSÉE LATÉRALE D’UNE PENTE 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Descendre une pente de manière incorrecte. 
+ 
+CONSÉQUENCES POSSIBLES 
+Cela peut provoquer une perte de contrôle ou le retournement de l’ATV. 
+ 
+
+
+
+COMMENT ÉVITER LE DANGER 
+Respectez toujours les procédures de descente décrites dans le manuel du propriétaire. 
+REMARQUE : une technique particulière est nécessaire pour freiner en descente. 
+Examinez soigneusement le terrain avant de commencer la descente. 
+Déplacez votre poids vers l’arrière. 
+Ne descendez jamais à grande vitesse. 
+Évitez de descendre en biais, ce qui ferait fortement pencher le véhicule d’un côté. 
+Descendez droit dans la pente lorsque cela est possible. 
+ 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Traverser une pente latéralement ou tourner sur une pente de manière incorrecte. 
+ 
+CONSÉQUENCES POSSIBLES 
+Cela peut provoquer une perte de contrôle ou le retournement de l’ATV. 
+ 
+COMMENT ÉVITER LE DANGER 
+N’essayez jamais de faire demi-tour sur une pente tant que vous ne maîtrisez pas la 
+technique de virage décrite dans le manuel sur terrain plat. Soyez très prudent lorsque vous 
+tournez sur une pente. 
+Évitez si possible de traverser latéralement une pente raide. 
+Lors d’une traversée latérale : 
+• respectez toujours les procédures décrites dans le manuel ; 
+• évitez les surfaces excessivement glissantes ou meubles ; 
+• déplacez votre poids vers le côté amont de l’ATV. 
+ 
+PAGE 20 — OBSTACLES ET DÉRAPAGE 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Franchir des obstacles de manière incorrecte. 
+ 
+CONSÉQUENCES POSSIBLES 
+Cela peut entraîner une perte de contrôle, une collision ou le retournement de l’ATV. 
+ 
+COMMENT ÉVITER LE DANGER 
+Avant de rouler dans une zone nouvelle, recherchez les obstacles. 
+Soyez extrêmement prudent lors du franchissement de gros obstacles tels que de gros 
+rochers ou des arbres couchés. 
+Si vous ne pouvez pas éviter un obstacle, respectez toujours les procédures de 
+franchissement décrites dans le manuel du propriétaire. 
+ 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Déraper ou glisser. 
+ 
+CONSÉQUENCES POSSIBLES 
+Vous pouvez perdre le contrôle de l’ATV. Vous pouvez également retrouver brutalement de 
+l’adhérence, ce qui peut provoquer le retournement de l’ATV. 
+
+
+
+ 
+COMMENT ÉVITER LE DANGER 
+Sur les surfaces glissantes, comme la glace, roulez lentement et soyez très prudent afin de 
+réduire le risque de dérapage ou de perte de contrôle. 
+ 
+PAGE 21 — EAU PROFONDE ET MARCHE ARRIÈRE 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Utiliser cet ATV dans une eau profonde ou à courant rapide. 
+ 
+CONSÉQUENCES POSSIBLES 
+Les pneus peuvent flotter, provoquant une perte d’adhérence et de contrôle susceptible 
+d’entraîner un accident. 
+ 
+COMMENT ÉVITER LE DANGER 
+N’utilisez jamais l’ATV dans une eau dépassant la profondeur maximale recommandée dans 
+ce manuel. 
+Évitez les eaux profondes ou à courant rapide. Si le passage dans l’eau est inévitable, 
+avancez lentement, répartissez soigneusement votre poids, évitez les virages ou arrêts 
+brusques et ne modifiez pas brutalement l’ouverture des gaz. 
+N’oubliez pas que les freins mouillés peuvent perdre en efficacité. Testez les freins après 
+être sorti de l’eau. Si nécessaire, actionnez-les plusieurs fois afin que le frottement sèche les 
+plaquettes. 
+ 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Utiliser incorrectement la marche arrière. 
+ 
+CONSÉQUENCES POSSIBLES 
+Vous pourriez heurter un obstacle ou une personne située derrière vous et provoquer des 
+blessures graves. 
+ 
+COMMENT ÉVITER LE DANGER 
+Avant d’engager la marche arrière, assurez-vous qu’aucun obstacle ni aucune personne ne 
+se trouve derrière le véhicule. Lorsque la manœuvre peut être effectuée en toute sécurité, 
+reculez lentement. 
+ 
+PAGE 22 — PNEUS ET MODIFICATIONS 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Utiliser l’ATV avec des pneus inadaptés ou avec une pression incorrecte ou inégale. 
+ 
+CONSÉQUENCES POSSIBLES 
+Des pneus inadaptés ou une pression incorrecte ou inégale peuvent entraîner une perte de 
+contrôle et augmenter le risque d’accident. 
+ 
+COMMENT ÉVITER LE DANGER 
+Utilisez toujours les dimensions et types de pneus spécifiés dans le manuel du propriétaire. 
+
+
+
+Maintenez toujours la pression des pneus aux valeurs prescrites. 
+ 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Utiliser cet ATV après des modifications inappropriées. 
+ 
+CONSÉQUENCES POSSIBLES 
+Une installation incorrecte d’accessoires ou une modification du véhicule peut altérer son 
+comportement et provoquer un accident. 
+ 
+COMMENT ÉVITER LE DANGER 
+Ne modifiez jamais l’ATV par une installation incorrecte ou une utilisation inappropriée 
+d’accessoires. Toutes les pièces et tous les accessoires ajoutés doivent être d’origine ou de 
+qualité équivalente, conçus pour cet ATV, et installés et utilisés conformément aux 
+instructions. En cas de doute, consultez un revendeur agréé. 
+ 
+PAGE 23 — PASSAGER SUR LE PORTE-BAGAGES ET ACROBATIES 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Transporter un passager sur le porte-bagages. 
+ 
+CONSÉQUENCES POSSIBLES 
+Cela réduit fortement votre capacité à équilibrer et contrôler l’ATV et peut provoquer un 
+accident entraînant des blessures pour le conducteur et/ou le passager. 
+ 
+COMMENT ÉVITER LE DANGER 
+Le porte-bagages est uniquement destiné au transport de marchandises et ne doit jamais 
+servir de siège passager. 
+ 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Tenter des roues arrière, des sauts ou d’autres acrobaties. 
+ 
+CONSÉQUENCES POSSIBLES 
+Cela augmente le risque d’accident, notamment de retournement. 
+ 
+COMMENT ÉVITER LE DANGER 
+Ne tentez jamais d’acrobaties telles que roues arrière ou sauts. 
+ 
+PAGE 24 — SURCHARGE, REMORQUAGE ET GLACE 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Surcharger l’ATV ou transporter/tracter une charge de manière incorrecte. 
+ 
+CONSÉQUENCES POSSIBLES 
+Le comportement du véhicule peut être modifié et entraîner un accident. 
+ 
+COMMENT ÉVITER LE DANGER 
+
+
+
+Ne dépassez jamais la capacité de charge indiquée pour cet ATV. 
+Répartissez correctement la charge et fixez-la solidement. 
+Réduisez la vitesse lorsque vous transportez une charge ou tractez une remorque. 
+Prévoyez une distance de freinage plus importante. 
+Respectez toujours les instructions du manuel concernant le transport de charges et le 
+remorquage. 
+ 
+AVERTISSEMENT 
+DANGER POTENTIEL 
+Rouler sur des lacs ou rivières gelés. 
+ 
+CONSÉQUENCES POSSIBLES 
+Des blessures graves ou la mort peuvent survenir si l’ATV et/ou son conducteur passent à 
+travers la glace. 
+ 
+COMMENT ÉVITER LE DANGER 
+Ne roulez jamais sur une étendue d’eau gelée avant d’avoir la certitude que la glace est 
+suffisamment épaisse et résistante pour supporter la machine, son conducteur et les efforts 
+dynamiques créés par le déplacement du véhicule. 
+ 
+PAGE 25 — APRÈS UN ACCIDENT / CAPACITÉS DU CONDUCTEUR / INCENDIE 
+AVERTISSEMENT 
+Après un retournement ou un accident, faites contrôler l’ensemble de la machine par un 
+réparateur qualifié, notamment les freins, l’accélérateur et la direction, afin de détecter 
+d’éventuels dommages. 
+ 
+AVERTISSEMENT 
+La conduite sûre de ce véhicule actif exige du discernement et des capacités physiques 
+appropriées. Les personnes présentant des limitations cognitives ou physiques qui utilisent 
+ce véhicule courent un risque accru de retournement et de perte de contrôle pouvant 
+entraîner des blessures graves ou la mort. 
+ 
+ATTENTION 
+Maintenez les matériaux combustibles à l’écart du système d’échappement. Un incendie 
+peut se produire. 
+ 
+PAGE 26 — 6. V.I.N. / IDENTIFICATION 
+Relevez les numéros de votre ATV dans les emplacements prévus : 
+1. Numéro VIN du châssis — situé sur le côté avant droit du châssis. 
+2. Numéro de série du moteur — situé sur le côté avant gauche du carter moteur. 
+ 
+Retirez la clé de secours et conservez-la dans un endroit sûr. Une copie de clé ne peut être 
+réalisée qu’à partir d’une ébauche de clé découpée en utilisant une clé existante comme 
+modèle. 
+ 
+Notez également le numéro de clé. 
+ 
+
+
+
+Les numéros de châssis et de moteur sont importants pour identifier le modèle lors de 
+l’immatriculation, de la souscription d’une assurance ou de la commande de pièces 
+détachées. En cas de vol, ces numéros sont essentiels pour identifier et récupérer votre 
+ATV. 
+ 
+PAGE 27 — 7. COMMANDES ET FONCTIONS DES COMPOSANTS 
+Composants du véhicule : 
+1. Rétroviseur arrière. 
+2. Protège-main. 
+3. Feu de route. 
+4. Clignotant avant. 
+5. Feu de croisement. 
+6. Amortisseur avant. 
+7. Treuil. 
+8. Dossier passager. 
+9. Commutateurs électriques. 
+10. Éclairage de plaque d’immatriculation. 
+11. Feu stop. 
+12. Clignotant arrière. 
+13. Feux de position arrière. 
+14. Silencieux. 
+15. Amortisseur arrière. 
+16. Attelage. 
+17. Essieu arrière. 
+ 
+PAGE 28 — COMPOSANTS DU VÉHICULE, SUITE 
+18. Porte-bagages avant. 
+19. Frein de stationnement. 
+20. Frein à main. 
+21. Commande d’accélérateur au pouce. 
+22. Levier de sélection des rapports. 
+23. Interface USB. 
+24. Prise auxiliaire CC. 
+ 
+PAGE 29 — CONTACTEUR PRINCIPAL 
+① Contacteur principal 
+ 
+ON : le moteur peut être démarré lorsque le contacteur est placé dans cette position. Si le 
+commutateur d’éclairage situé sur la commande gauche est ensuite mis sur ON, les phares 
+et les feux arrière s’allument. 
+ 
+OFF : lorsque le contacteur est placé dans cette position, tous les circuits électriques sont 
+coupés. La clé peut être retirée dans cette position. 
+ 
+PAGE 30 — COMMUTATEURS D’ÉCLAIRAGE ET TÉMOINS 
+AVERTISSEMENT 
+
+
+
+Cet ATV est équipé d’un éclairage homologué pour la circulation routière. Il est conçu pour 
+une utilisation sur route et peut circuler sur les voies autorisées. Soyez prudent et réduisez 
+votre vitesse lorsque la visibilité est réduite, notamment par brouillard, pluie ou obscurité. 
+ 
+Commutateurs 
+Le commutateur d’éclairage est situé sur le guidon gauche. Il permet d’allumer et d’éteindre 
+les feux et, sur les modèles équipés d’un éclairage Hi/Lo, de passer du feu de croisement au 
+feu de route. 
+REMARQUE : les feux ne s’allument pas si le contacteur principal n’est pas sur ON. 
+ 
+1. Bouton de démarrage. 
+2. Commutateur d’éclairage. 
+3. Commutateur de clignotants. 
+4. Coupe-circuit moteur. 
+ 
+1. Bouton de démarrage : appuyez sur ce bouton pour actionner le démarreur électrique. 
+2. Commutateur d’éclairage : 
+• position feu de croisement : le feu de croisement s’allume ; 
+• position feu de route : le feu de route s’allume. 
+3. Commutateur de clignotants : actionnez le commutateur à gauche ou à droite ; les 
+clignotants correspondants clignotent en continu. 
+4. Coupe-circuit moteur : 
+• position arrêt : le moteur s’arrête ; 
+• position marche : le moteur peut démarrer. 
+ 
+PAGE 31 — TÉMOINS DU TABLEAU DE BORD 
+L’ATV est équipé de témoins lumineux. Leur configuration varie selon les modèles et tous 
+les modèles ne disposent pas nécessairement de tous les témoins. Les informations 
+suivantes permettent d’identifier les témoins et leur fonction. 
+ 
+1. Témoin de rapport engagé : indique le rapport actuellement sélectionné. Quatre positions 
+sont disponibles : L, H, N et R. 
+2. Témoin de défaut EFI : s’il est allumé ou clignote, un défaut du système d’injection EFI est 
+présent. Consultez rapidement votre revendeur local pour un diagnostic et une réparation. 
+3. Témoin de feu de route : s’allume lorsque le phare fonctionne en mode feu de route. 
+4. Témoin de feu de croisement : s’allume lorsque le phare fonctionne en mode feu de 
+croisement. 
+5. Témoin de clignotants. 
+6. Témoin de niveau de liquide de frein : s’allume lorsque le niveau du liquide dans le 
+réservoir principal de frein est trop bas. 
+ 
+PAGE 32 — BOUTON DU COMBINÉ D’INSTRUMENTS / ACCÉLÉRATEUR 
+Bouton du combiné 
+ 
+1. Changement d’unité : maintenez le bouton de réglage enfoncé pour basculer l’affichage 
+entre « km/h » et « mph ». 
+ 
+
+
+
+2. Réglage de l’heure : appuyez brièvement sur le bouton de réglage jusqu’à ce que l’icône 
+du kilométrage total devienne rouge, puis maintenez le bouton enfoncé pendant 3 secondes 
+pour accéder au réglage de l’horloge. Le champ des heures devient rouge. Appuyez 
+brièvement pour augmenter l’heure d’une unité. Maintenez le bouton 3 secondes pour 
+passer aux minutes, puis appuyez brièvement pour augmenter les minutes d’une unité. 
+Maintenez ensuite le bouton 3 secondes pour enregistrer et quitter ; sans intervention 
+pendant 10 secondes, le réglage est enregistré automatiquement et le menu se ferme. 
+ 
+Accélérateur 
+ 
+AVERTISSEMENT 
+Ne démarrez pas et n’utilisez pas un ATV dont la commande d’accélérateur se bloque ou 
+fonctionne incorrectement. Un accélérateur grippé ou défectueux peut provoquer un 
+accident entraînant des blessures graves ou la mort. 
+Contactez toujours votre revendeur pour toute réparation liée à l’accélérateur. 
+L’absence de contrôle ou d’entretien correct du système d’accélérateur peut provoquer le 
+blocage du levier pendant la conduite et entraîner un accident. 
+Avant de démarrer le moteur, et périodiquement pendant la conduite, vérifiez toujours que le 
+levier se déplace librement et revient correctement en position de repos. 
+ 
+PAGE 33 — LEVIER D’ACCÉLÉRATEUR / PÉDALE DE FREIN 
+Levier d’accélérateur 
+Le régime moteur et le déplacement du véhicule sont commandés en appuyant sur le levier 
+d’accélérateur. Le levier (1) est rappelé par ressort ; lorsque vous le relâchez, le régime 
+moteur revient au ralenti. 
+ 
+AVERTISSEMENT 
+Le lavage du véhicule ou son utilisation par températures négatives peut entraîner le gel de 
+l’eau dans la gaine du câble d’accélérateur et/ou sur le mécanisme d’accélérateur. 
+Cela peut provoquer le blocage de la commande, maintenir le moteur accéléré et entraîner 
+une perte de contrôle. 
+ 
+Pédale de frein arrière / frein principal 
+Le niveau de liquide de frein doit être vérifié avant chaque utilisation. Le réservoir se trouve 
+sous la selle. Le niveau doit rester entre les repères minimum et maximum ; le tableau de 
+bord allume un témoin lorsque le niveau est trop bas. 
+ 
+ATTENTION 
+Une fois un flacon de liquide de frein ouvert, utilisez la quantité nécessaire puis éliminez le 
+reste. Ne conservez pas et ne réutilisez pas un flacon entamé. Le liquide de frein est 
+hygroscopique : il absorbe rapidement l’humidité de l’air. Son point d’ébullition diminue alors, 
+ce qui peut entraîner une perte prématurée d’efficacité du freinage et un risque de blessure 
+grave. 
+ 
+La pédale de frein se trouve sur le côté droit de l’ATV. Son actionnement commande le 
+système de freinage principal, qui agit sur les freins des roues avant et arrière. 
+ 
+PAGE 34 — CONTRÔLE DU FREIN PRINCIPAL 
+
+
+
+Avant chaque utilisation, testez la pédale / commande de frein et vérifiez le niveau dans le 
+réservoir. La commande doit offrir une sensation ferme. Une sensation spongieuse peut 
+signaler une fuite de liquide ou un niveau insuffisant dans le maître-cylindre ; le défaut doit 
+être corrigé avant toute utilisation. Contactez votre revendeur pour un diagnostic et une 
+réparation appropriés. 
+ 
+1. Pédale de frein arrière / frein principal. 
+ 
+AVERTISSEMENT 
+N’utilisez jamais l’ATV si la commande de frein présente une sensation spongieuse. Une 
+commande spongieuse peut correspondre à une perte d’efficacité du freinage. La perte de 
+freinage peut provoquer un accident. 
+ 
+PAGE 35 — FREIN AUXILIAIRE 
+AVERTISSEMENT 
+Soyez prudent lorsque vous utilisez le frein auxiliaire. Ne l’actionnez pas brutalement en 
+marche avant, car les roues arrière peuvent se bloquer, déraper latéralement et provoquer 
+une perte de contrôle. 
+ 
+1. Levier de frein auxiliaire. 
+ 
+Votre ATV est équipé d’un frein auxiliaire destiné à servir de dispositif de sécurité. Il se 
+trouve sur le guidon gauche et s’actionne de la main gauche. Il constitue un système de 
+secours, notamment en cas de défaillance du frein principal. 
+ 
+Si les roues arrière commencent à glisser, appliquez modérément le frein arrière avec la 
+main gauche. 
+Un actionnement brutal du frein arrière lorsque le véhicule recule dans une pente peut 
+provoquer le basculement des roues arrière et le retournement du véhicule. 
+ 
+Niveau du liquide de frein. 
+ 
+PAGE 36 — REGARD DE NIVEAU DU LIQUIDE DE FREIN / FREIN DE STATIONNEMENT 
+Regard de niveau 
+Le liquide de frein du maître-cylindre situé sur le guidon gauche doit être contrôlé avant 
+chaque sortie. Un regard (1) se trouve sur le dessus du maître-cylindre. Il apparaît sombre 
+lorsque le niveau est correct. Lorsqu’un appoint est nécessaire, le regard apparaît clair. 
+ 
+REMARQUE : pour contrôler le niveau, placez l’ATV sur une surface horizontale et 
+maintenez le guidon droit. Si le niveau est bas, utilisez uniquement du liquide DOT 3. 
+ 
+Sur certains modèles, un regard latéral permet de visualiser directement le niveau, qui doit 
+rester entre les repères « MAX » et « MIN » du réservoir. 
+ 
+Réglage / activation du frein de stationnement 
+Le levier de frein de stationnement se trouve sur le côté gauche du guidon. Son verrouillage 
+maintient l’action de freinage et sert de frein de stationnement. Si nécessaire, il peut 
+également servir de frein d’urgence. 
+
+
+
+ 
+AVERTISSEMENT 
+DANGER POTENTIEL : stationner sur une pente. 
+Frein de stationnement OFF / ON. 
+ 
+PAGE 37 — STATIONNEMENT EN PENTE / LEVIER DE VITESSES 
+CONSÉQUENCES POSSIBLES 
+L’ATV peut glisser vers le bas de la pente et provoquer des blessures ou des dommages 
+matériels. 
+ 
+COMMENT ÉVITER LE DANGER 
+• Évitez autant que possible de stationner l’ATV sur une pente. 
+• Si vous devez stationner sur une pente, placez le véhicule aussi transversalement et 
+stablement que possible et serrez le frein de stationnement. 
+• Calez les roues avant et arrière à l’aide de pierres ou d’autres objets appropriés. 
+• Ne stationnez pas sur une pente très raide, car le redémarrage pourrait être difficile. 
+ 
+AVERTISSEMENT 
+Vérifiez toujours que le frein de stationnement est desserré avant de conduire l’ATV. Laisser 
+le frein serré pendant la conduite peut provoquer un accident et des blessures graves. 
+ 
+Levier de sélection 
+Le sélecteur de transmission se trouve sur le côté droit du véhicule. Il comporte quatre 
+positions : 
+• L : marche avant gamme courte ; 
+• H : marche avant gamme longue ; 
+• N : point mort ; 
+• R : marche arrière. 
+ 
+REMARQUE : pour prolonger la durée de vie de la courroie, utilisez la gamme courte (L) 
+lorsque vous tractez une charge importante et lorsque vous roulez pendant une longue 
+période à moins de 7 mph (11 km/h). 
+ 
+ATTENTION 
+Pour changer de rapport, immobilisez complètement le véhicule et laissez le moteur au 
+ralenti, puis placez le levier sur la position souhaitée. Changer de rapport à un régime 
+supérieur au ralenti ou pendant que le véhicule se déplace peut endommager la 
+transmission. 
+ 
+Lorsque le véhicule est laissé sans surveillance, placez toujours la transmission en prise et 
+verrouillez le frein de stationnement. 
+ 
+PAGE 38 — SÉLECTION DES RAPPORTS / SYSTÈME DE REFROIDISSEMENT 
+Un réglage correct de la tringlerie de sélection est important pour assurer le bon 
+fonctionnement de la transmission. En cas de difficulté de changement de rapport, consultez 
+votre revendeur. 
+ 
+AVERTISSEMENT 
+
+
+
+DANGER POTENTIEL 
+Changer de rapport alors que le régime moteur est supérieur au ralenti. 
+ 
+CONSÉQUENCES POSSIBLES 
+Les roues peuvent cesser brusquement de tourner, entraînant une perte de contrôle, un 
+accident et des blessures. Le moteur ou la transmission peuvent également être 
+endommagés. 
+ 
+COMMENT ÉVITER LE DANGER 
+Assurez-vous que le moteur est au ralenti ou arrêté avant de changer de rapport. 
+ 
+Système de refroidissement moteur 
+Niveau du liquide de refroidissement 
+ 
+Le vase de récupération se trouve à l’avant droit du véhicule. Son niveau doit être maintenu 
+entre les repères minimum et maximum. 
+ 
+Le niveau de liquide moteur est régulé par le système de récupération, composé du vase de 
+récupération, du col de remplissage du radiateur, du bouchon pressurisé du radiateur et de 
+la durite de raccordement. 
+ 
+Lorsque la température du liquide augmente, son expansion pousse l’excédent hors du 
+radiateur, au-delà du bouchon pressurisé, vers le vase de récupération. Lorsque la 
+température diminue, la contraction du liquide le fait revenir du vase vers le radiateur. 
+ 
+PAGE 39 — LIQUIDE DE REFROIDISSEMENT / RADIATEUR 
+REMARQUE : une légère baisse du niveau sur une machine neuve est normale pendant 
+que le circuit élimine l’air emprisonné. Surveillez le niveau et faites l’appoint dans le vase de 
+récupération selon les recommandations. 
+ 
+Le constructeur recommande un mélange 50/50 d’antigel de haute qualité compatible avec 
+l’aluminium et d’eau distillée. 
+ 
+REMARQUE : respectez toujours les recommandations du fabricant du liquide concernant le 
+mélange nécessaire pour la protection contre le gel dans votre région. 
+ 
+AVERTISSEMENT 
+Ne retirez jamais le bouchon pressurisé lorsque le moteur est tiède ou chaud. La vapeur qui 
+s’échappe peut provoquer de graves brûlures. Le moteur doit être froid avant de retirer le 
+bouchon. 
+ 
+Contrôle du niveau dans le radiateur 
+Cette procédure n’est normalement requise que lorsque le circuit de refroidissement a été 
+vidangé pour entretien ou réparation. Toutefois, si le vase de récupération s’est 
+complètement vidé, contrôlez également le niveau dans le radiateur et ajoutez du liquide si 
+nécessaire. 
+ 
+
+
+
+REMARQUE : l’emploi d’un bouchon pressurisé non conforme empêche le système de 
+récupération de fonctionner correctement. Si le bouchon doit être remplacé, contactez votre 
+revendeur pour obtenir la bonne pièce. 
+ 
+Afin de préserver les propriétés protectrices du liquide de refroidissement, il est 
+recommandé de vidanger complètement le circuit tous les deux ans et de le remplir avec un 
+mélange neuf d’antigel et d’eau. 
+ 
+À l’aide d’un entonnoir, ajoutez lentement du liquide par le col de remplissage du radiateur si 
+nécessaire. 
+ 
+PAGE 40 — SYSTÈME DE CARBURANT ET D’HUILE 
+AVERTISSEMENT 
+L’essence est extrêmement inflammable et peut être explosive dans certaines conditions. 
+ 
+• Soyez toujours extrêmement prudent lors de la manipulation de l’essence. 
+• Faites toujours le plein moteur arrêté, à l’extérieur ou dans une zone bien ventilée. 
+• Ne fumez pas et n’approchez aucune flamme nue ni étincelle de la zone de remplissage ou 
+de stockage du carburant. 
+• Ne remplissez pas excessivement le réservoir et ne remplissez pas le col de remplissage. 
+• Si de l’essence entre en contact avec votre peau ou vos vêtements, lavez immédiatement 
+à l’eau et au savon et changez de vêtements. 
+• Ne démarrez jamais le moteur et ne le laissez jamais tourner dans un local fermé. Les gaz 
+d’échappement d’un moteur à essence sont toxiques et peuvent provoquer une perte de 
+connaissance ou la mort très rapidement. 
+• Fermez l’alimentation en carburant lorsque l’ATV est remisé ou stationné, si le véhicule est 
+équipé d’un robinet. 
+ 
+AVERTISSEMENT 
+Les gaz d’échappement de ce moteur contiennent des substances chimiques reconnues, à 
+certaines concentrations, comme pouvant provoquer des cancers, des malformations 
+congénitales ou d’autres atteintes à la reproduction. 
+ 
+Système de carburant 
+Le bouchon du réservoir (1) se trouve directement derrière le guidon. 
+Reportez-vous aux caractéristiques du manuel pour connaître la capacité du réservoir. 
+Utilisez de l’essence ordinaire sans plomb. 
+ 
+PAGE 41 — SYSTÈME D’HUILE 
+Le réservoir / circuit d’huile se trouve sur le côté droit du moteur. 
+ 
+Pour contrôler le niveau d’huile : 
+1. Placez la machine sur une surface horizontale. 
+2. Démarrez le moteur et laissez-le tourner au ralenti pendant 20 à 30 secondes. 
+3. Arrêtez le moteur, retirez les boulons (1) et le cache décoratif (2), puis vérifiez le niveau 
+d’huile moteur à travers le regard (3). Le niveau doit se situer entre les repères « H » et « L 
+». 
+
+
+
+4. Si le niveau se trouve sous le repère « L », retirez le bouchon de remplissage (4) et 
+ajoutez de l’huile moteur jusqu’à atteindre environ le milieu entre les repères « H » et « L ». 
+ 
+ATTENTION 
+Pour la qualité d’huile, reportez-vous à la section « 16. ENTRETIEN / Vidange d’huile ». Ne 
+remplacez pas l’huile prescrite par un autre type et ne mélangez pas différentes marques 
+d’huile. Cela peut provoquer de graves dommages au moteur et annuler la garantie. 
+ 
+PAGE 42 — PRISE AUXILIAIRE CC 
+1. La prise auxiliaire CC se trouve à l’avant gauche de l’ATV. 
+2. Elle permet d’alimenter des appareils compatibles tels que dispositifs de communication, 
+éclairages de travail, radios et autres équipements électriques externes. 
+3. Lorsque le contact principal est coupé, la prise auxiliaire ne peut pas être utilisée. 
+4. Lorsque le moteur fonctionne, la prise peut alimenter un équipement pendant une durée 
+prolongée. 
+5. Puissance maximale de la prise auxiliaire : 12 V CC, 120 W. 
+ 
+ATTENTION 
+N’utilisez pas d’appareil électrique d’une puissance supérieure à 120 W, sous peine de 
+surcharger le circuit et de faire fondre le fusible. 
+L’utilisation d’un appareil électrique lorsque le moteur ne tourne pas, ou avec les phares 
+allumés, augmente le risque de décharger la batterie et rendra le démarrage du moteur plus 
+difficile. 
+Les allume-cigares à branchement direct ne doivent pas être utilisés. 
+ 
+PAGE 43 — TREUIL : UTILISATION ET SÉCURITÉ 
+ATTENTION 
+Une utilisation continue du treuil pendant plus d’une minute peut décharger la batterie. 
+ 
+AVERTISSEMENT 
+Une utilisation incorrecte ou irresponsable du treuil peut provoquer des blessures graves ou 
+la mort. 
+Respectez toujours les instructions et avertissements concernant le treuil dans ce manuel 
+ainsi que dans le manuel spécifique du treuil. 
+ 
