@@ -4,7 +4,9 @@ on:
   push:
     branches: [main]
     paths:
-      - ".github/workflows/build-quad-fr-illustrated.yml"\n      - "sos/files/QuadPascal/build_manual_fr_illustre.py"\n      - "sos/files/QuadPascal/Tao_Motor_TGA300F-01_T-Lander_300_Manuel_utilisateur_FR_source.txt"
+      - ".github/workflows/build-quad-fr-illustrated.yml"
+      - "sos/files/QuadPascal/build_manual_fr_illustre.py"
+      - "sos/files/QuadPascal/Tao_Motor_TGA300F-01_T-Lander_300_Manuel_utilisateur_FR_source.txt"
 
 permissions:
   contents: write
